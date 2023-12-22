@@ -1,0 +1,53 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+  background-color: black;
+}
+
+body {
+  background-color: black;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+
+.tuneContainer {
+  background-color: aqua;
+  padding: 1em;
+  padding-top: 0.5em;
+  margin: 1em;
+  border-radius: 2cap;
+}
+
+.author {
+  margin: 0em;
+}
+
+.songTitle {
+  margin: 0em;
+}
+
+/*.songAddition {
+  background-color: aqua;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 2cap;
+}
+
+.songAddition:hover {
+  background-color: #00ffffe3;
+}
+
+.additionForm {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 4em));
+}
+
+input {
+  margin-bottom: 0.25em;
+}*/
