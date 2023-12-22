@@ -29,8 +29,9 @@ function sortData(data, method) {
   return data.sort((aa, bb) => {
     let a;
     let b;
+    let isReversed = false;
 
-    if (method == "alpha" || method == "title") {
+    if (method == "title") {
       a = aa.title.toUpperCase();
       b = bb.title.toUpperCase();
     } else if (method == "author") {
@@ -39,14 +40,25 @@ function sortData(data, method) {
     } else {
       a = aa.id;
       b = bb.id;
+      isReversed = true;
     }
   
-    if (a < b) {
-      return -1;
-    } else if (a > b) {
-      return 1;
+    if (isReversed) {
+      if (a > b) {
+        return -1;
+      } else if (a < b) {
+        return 1;
+      } else {
+        return 0;
+      }
     } else {
-      return 0;
+      if (a < b) {
+        return -1;
+      } else if (a > b) {
+        return 1;
+      } else {
+        return 0;
+      }
     }
 
   });

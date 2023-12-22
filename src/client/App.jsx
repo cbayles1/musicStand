@@ -85,18 +85,21 @@ function SortModifier({dataFetchUrl, setDataFetchUrl}) {
   return (<>
     <span className="sortModifiers">
       Sort by:
-      {['Id', 'Title', 'Author'].map((modifier, i) => {
+      {[['id', 'Date Added'], ['title', 'Title'], ['author', 'Author']].map((modifierArr, i) => {
+        const modifier = modifierArr[0];
+        const modifierLabel = modifierArr[1];
+
         let isDefault = false;
         if (i == 0) {
           isDefault = true;
-        } 
+        }
         return (<div key={i}>
           <input name="sort" type="radio"
             value={modifier.toLowerCase()} 
             defaultChecked={isDefault}
             onChange={(e) => setDataFetchUrl(`${dataFetchUrl}sort=${e.target.value}&`)}
           />
-          <label>{modifier}</label>
+          <label>{modifierLabel}</label>
         </div>);
       })}
     </span>
