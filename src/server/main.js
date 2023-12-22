@@ -36,6 +36,9 @@ function sortData(data, method) {
     } else if (method == "author") {
       a = aa.author.toUpperCase();
       b = bb.author.toUpperCase();
+    } else {
+      a = aa.id;
+      b = bb.id;
     }
   
     if (a < b) {

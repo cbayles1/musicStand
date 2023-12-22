@@ -31,6 +31,13 @@ body {
 .songTitle {
   margin: 0em;
 }
+.sortModifiers {
+  display: grid;
+  width: fit-content;
+  background-color: white;
+  padding: 0.5em;
+}
+
 
 /*.songAddition {
   background-color: aqua;

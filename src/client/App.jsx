@@ -30,6 +30,7 @@ export default function App() {
   // Runs on page load
   useEffect(() => {
     fetchData();
+    setDataFetchUrl('http://localhost:3000/getData?');
   }, []);
 
   // Runs when fetchTrigger is changed
@@ -48,17 +49,19 @@ export default function App() {
   return (
     <main>
       {/*<AdditionForm></AdditionForm>*/}
-      <form onSubmit={(event) => {
+      <form className="modifierForm" onSubmit={(event) => {
         event.preventDefault();
         setFetchTrigger(true);
       }}>
         <p>Sort:</p>
-        <label>Alphabetical</label>
-        <input name="sort" type="radio" value={'alpha'} onChange={(e) => setDataFetchUrl(`${dataFetchUrl}sort=${e.target.value}&`)}/>
-        <label>Title</label>
-        <input name="sort" type="radio" value={'title'} onChange={(e) => setDataFetchUrl(`${dataFetchUrl}sort=${e.target.value}&`)}/>
-        <label>Author</label>
-        <input name="sort" type="radio" value={'author'} onChange={(e) => setDataFetchUrl(`${dataFetchUrl}sort=${e.target.value}&`)}/>
+        <span className="sortModifiers">
+          {['Id', 'Alpha', 'Author', 'Title'].map((modifier) => {
+            return (<div>
+              <input name="sort" type="radio" value={modifier.toLowerCase()} onChange={(e) => setDataFetchUrl(`${dataFetchUrl}sort=${e.target.value}&`)}/>
+              <label>{modifier}</label>
+            </div>);
+          })}
+        </span>
         <input type="submit"/>
       </form>
       {data.map((entry) => {
@@ -72,7 +75,7 @@ export default function App() {
     const result = await res.json();
     setData(result);
     setDataFetchUrl('http://localhost:3000/getData?');
-    setFetchTrigger(false);   
+    setFetchTrigger(false);
   }
 }
 
