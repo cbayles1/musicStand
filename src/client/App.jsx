@@ -16,17 +16,6 @@ export default function App() {
   const [tag, setTag] = useState(null);
   const [fetchTrigger, setFetchTrigger] = useState(false);
 
-  /*if (sort) {
-    setDataFetchUrl(`${dataFetchUrl}sort=${sort}&`);
-    console.log(dataFetchUrl);
-  }
-  if (searchMethod && searchValue) {
-    setDataFetchUrl(`${dataFetchUrl}searchMethod=${searchMethod}&searchValue=${searchValue}&`);
-  }
-  if (tag) {
-    setDataFetchUrl(`${dataFetchUrl}tag=${tag}&`);
-  }*/
-
   // Runs on page load
   useEffect(() => {
     fetchData();
@@ -48,20 +37,11 @@ export default function App() {
 
   return (
     <main>
-      {/*<AdditionForm></AdditionForm>*/}
       <form className="modifierForm" onSubmit={(event) => {
         event.preventDefault();
         setFetchTrigger(true);
       }}>
-        <p>Sort:</p>
-        <span className="sortModifiers">
-          {['Id', 'Alpha', 'Author', 'Title'].map((modifier) => {
-            return (<div>
-              <input name="sort" type="radio" value={modifier.toLowerCase()} onChange={(e) => setDataFetchUrl(`${dataFetchUrl}sort=${e.target.value}&`)}/>
-              <label>{modifier}</label>
-            </div>);
-          })}
-        </span>
+        <SortModifier dataFetchUrl={dataFetchUrl} setDataFetchUrl={setDataFetchUrl}/>
         <input type="submit"/>
       </form>
       {data.map((entry) => {
@@ -101,58 +81,24 @@ function Tune({entry}) {
   );
 }
 
-/*function AdditionForm({}) {
-  const [title, setTitle] = useState("");
-  const [author, setAuthor] = useState("");
-  const [linkHref, setLinkHref] = useState("");
-  const [linkTxt, setLinkTxt] = useState("");
-  const [tag, setTag] = useState("");
-
-  return (
-  <Collapsible trigger="Quick Add" transitionTime={200} className="songAddition" openedClassName="songAddition">
-    <form className="additionForm" onSubmit={(event) => {
-      event.preventDefault();
-      addSong(title, author, linkTxt, linkHref, tag);
-      window.location.reload();
-    }}>
-      <label>Title: </label>
-      <input value={title} onChange={(e) => setTitle(e.target.value)}/>
-      <label>Author: </label>
-      <input value={author} onChange={(e) => setAuthor(e.target.value)}/>
-      <label>Link text: </label>
-      <input value={linkTxt} onChange={(e) => setLinkTxt(e.target.value)}/>
-      <label>Link href: </label>
-      <input value={linkHref} onChange={(e) => setLinkHref(e.target.value)}/>
-      <label>Tag: </label>
-      <input value={tag} onChange={(e) => setTag(e.target.value)}/><br/>
-      <input type="submit"/>
-    </form>
-  </Collapsible>
-  );
+function SortModifier({dataFetchUrl, setDataFetchUrl}) {
+  return (<>
+    <span className="sortModifiers">
+      Sort by:
+      {['Id', 'Title', 'Author'].map((modifier, i) => {
+        let isDefault = false;
+        if (i == 0) {
+          isDefault = true;
+        } 
+        return (<div key={i}>
+          <input name="sort" type="radio"
+            value={modifier.toLowerCase()} 
+            defaultChecked={isDefault}
+            onChange={(e) => setDataFetchUrl(`${dataFetchUrl}sort=${e.target.value}&`)}
+          />
+          <label>{modifier}</label>
+        </div>);
+      })}
+    </span>
+  </>);
 }
-  
-function addSong(title, author, linkTxt, linkHref, tag) {
-
-  songData = {
-    "title": title,
-    "author": author,
-    "links": [{
-        "href": linkHref,
-        "name": linkTxt
-    }],
-    "tags": [tag]
-}
-
-  const requestOptions = {
-    method: 'POST',
-    headers: {'Content-Type': 'application/json'},
-    body: songData//JSON.stringify(songData)
-  };
-
-  fetch('http://localhost:3000/addSong', requestOptions).then((res) => {
-    if (!res.ok) {
-      throw new Error(`HTTP error. Status: ${res.status}`);
-    }
-    alert("Song added!");
-  });
-}*/

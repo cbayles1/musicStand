@@ -34,10 +34,13 @@ body {
 .sortModifiers {
   display: grid;
   width: fit-content;
-  background-color: white;
   padding: 0.5em;
 }
 
+.modifierForm {
+  background-color: white;
+  color: black;
+}
 
 /*.songAddition {
   background-color: aqua;
