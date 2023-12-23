@@ -37,27 +37,25 @@ body {
   padding: 0.5em;
 }
 
+.searchModifiers {
+  width: fit-content;
+  padding: 0.5em;
+}
+
 .modifierForm {
   background-color: white;
   color: black;
 }
 
-/*.songAddition {
-  background-color: aqua;
-  padding: 1em;
-  margin: 1em;
-  border-radius: 2cap;
-}
-
-.songAddition:hover {
-  background-color: #00ffffe3;
-}
-
-.additionForm {
+.modifiers {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 4em));
+  grid-template-columns: 3;
+  grid-auto-flow: column;
 }
 
-input {
-  margin-bottom: 0.25em;
-}*/
+.modifierSubmit {
+  width: 100%;
+  height: fit-content;
+  padding: 0.7em;
+  align-self: center;
+}
