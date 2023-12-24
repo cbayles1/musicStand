@@ -8,6 +8,9 @@ app.get("/getData", (req, res) => {
   let myData = data.data;
   
   if (Object.keys(req.query).length > 0) {
+    if (req.query.key) {
+      myData = keyedData(myData, req.query.key);
+    }
     if (req.query.tag) {
       myData = taggedData(myData, req.query.tag);
     }
@@ -77,5 +80,11 @@ function searchData(data, method, value) {
 function taggedData(data, tag) {
   return data.filter((entry) => {
     return entry.tags.includes(tag.toLowerCase());
+  });
+}
+
+function keyedData(data, tag) {
+  return data.filter((entry) => {
+    return entry.key.toLowerCase() == tag.toLowerCase();
   });
 }

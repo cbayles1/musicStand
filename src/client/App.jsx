@@ -12,6 +12,7 @@ export default function App() {
   const [searchMethod, setSearchMethod] = useState(null);
   const [searchValue, setSearchValue] = useState(null);
   const [tag, setTag] = useState(null);
+  const [key, setKey] = useState(null);
 
   // Runs on page load
   useEffect(() => {
@@ -31,7 +32,7 @@ export default function App() {
 
   return (
     <main>
-      <Collapsible trigger={<h2 id="modifiersHeader">Modifiers</h2>} transitionTime={150}>
+      <Collapsible trigger={<h2 id="modifiersHeader">Modifiers</h2>} transitionTime={150} open={true}>
         <form id="modifierForm" onSubmit={(event) => {
           event.preventDefault();
           setFetchTrigger(true);
@@ -66,10 +67,16 @@ export default function App() {
               <label>Search for:</label><br/>
               <input className="modifierInput" name="searchValue" type="text" onChange={(e) => setSearchValue(e.target.value)}></input>
             </span>
+            <div>
             <span id="tagModifiers">
               <label>Tag:</label><br/>
               <input className="modifierInput" name="tag" type="text" onChange={(e) => setTag(e.target.value)}></input>
             </span>
+            <span id="keyModifiers">
+              <label>Key:</label><br/>
+              <input className="modifierInput" name="key" type="text" onChange={(e) => setKey(e.target.value)}></input>
+            </span>
+            </div>
           </div>
           <input type="submit" id="modifierSubmit"/>
         </form>
@@ -90,7 +97,8 @@ export default function App() {
   async function makeRequest() {
     let params = {
       sort: sort,
-      tag: tag
+      tag: tag,
+      key: key
     };
     if (searchMethod && searchValue) {
       params.searchMethod = searchMethod;
@@ -123,6 +131,7 @@ function Tune({entry}) {
           return <span key={i}>{tag}{(entry.tags.length - 1 !== i) && ", "}</span>
         })}
       </span>
+      <div><b>Key:</b> {entry.key}</div>
     </Collapsible>
   );
 }
