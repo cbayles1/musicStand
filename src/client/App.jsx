@@ -31,47 +31,49 @@ export default function App() {
 
   return (
     <main>
-      <form className="modifierForm" onSubmit={(event) => {
-        event.preventDefault();
-        setFetchTrigger(true);
-      }}>
-        <div id="modifiers">
-          <span id="sortModifiers">
-            Sort by:
-            {[['id', 'Date Added'], ['title', 'Title'], ['author', 'Author']].map((modifierArr, i) => {
-              const modifier = modifierArr[0];
-              const modifierLabel = modifierArr[1];
+      <Collapsible trigger={<h2 id="modifiersHeader">Modifiers</h2>} transitionTime={150}>
+        <form id="modifierForm" onSubmit={(event) => {
+          event.preventDefault();
+          setFetchTrigger(true);
+        }}>
+          <div id="modifierGrid">
+            <span id="sortModifiers">
+              Sort by:
+              {[['id', 'Date Added'], ['title', 'Title'], ['author', 'Author']].map((modifierArr, i) => {
+                const modifier = modifierArr[0];
+                const modifierLabel = modifierArr[1];
 
-              let isDefault = false;
-              if (i == 0) {
-                isDefault = true;
-              }
-              return (<div key={i}>
-                <input name="sort" type="radio"
-                  value={modifier.toLowerCase()}
-                  defaultChecked={isDefault}
-                  onChange={(e) => setSort(e.target.value)}
-                />
-                <label>{modifierLabel}</label>
-              </div>);
-            })}
-          </span>
-          
-          <span id="searchModifiers">
-            <label>Search by:</label><br/>
-            <select name="searchMethod" onChange={(e) => setSearchMethod(e.target.value)}>
-              <option value="title">Title</option>
-              <option value="author">Author</option>
-            </select><br/>
-            <label>Search for:</label><br/>
-            <input name="searchValue" type="text" onChange={(e) => setSearchValue(e.target.value)}></input>
-          </span>
-
-          <span id="tagModifiers">Tag</span>
-
-        </div>
-        <input type="submit" className="modifierSubmit"/>
-      </form>
+                let isDefault = false;
+                if (i == 0) {
+                  isDefault = true;
+                }
+                return (<div key={i}>
+                  <input name="sort" type="radio"
+                    value={modifier.toLowerCase()}
+                    defaultChecked={isDefault}
+                    onChange={(e) => setSort(e.target.value)}
+                  />
+                  <label>{modifierLabel}</label>
+                </div>);
+              })}
+            </span>
+            <span id="searchModifiers">
+              <label>Search by:</label><br/>
+              <select name="searchMethod" onChange={(e) => setSearchMethod(e.target.value)}>
+                <option value="title">Title</option>
+                <option value="author">Author</option>
+              </select><br/>
+              <label>Search for:</label><br/>
+              <input className="modifierInput" name="searchValue" type="text" onChange={(e) => setSearchValue(e.target.value)}></input>
+            </span>
+            <span id="tagModifiers">
+              <label>Tag:</label><br/>
+              <input className="modifierInput" name="tag" type="text" onChange={(e) => setTag(e.target.value)}></input>
+            </span>
+          </div>
+          <input type="submit" id="modifierSubmit"/>
+        </form>
+      </Collapsible>
       {data.map((entry) => {
         return <Tune key={entry.id} entry={entry}></Tune>
       })}

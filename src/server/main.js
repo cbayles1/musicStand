@@ -67,9 +67,9 @@ function sortData(data, method) {
 function searchData(data, method, value) {
   return data.filter((entry) => {
     if (method == "author") {
-      return entry.author.toLowerCase().startsWith(value.toLowerCase());
+      return entry.author.toLowerCase().includes(value.toLowerCase());
     } else if (method == "title") {
-      return entry.title.toLowerCase().startsWith(value.toLowerCase());
+      return entry.title.toLowerCase().includes(value.toLowerCase());
     }
   });
 }
