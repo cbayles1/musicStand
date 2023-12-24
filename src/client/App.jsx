@@ -3,8 +3,6 @@ import "./App.css";
 import Collapsible from "react-collapsible";
 import axios from 'axios';
 
-// either input field or more complicated dropdown for tags
-
 export default function App() {
   const [data, setData] = useState(null);
   const [fetchTrigger, setFetchTrigger] = useState(false);
@@ -74,7 +72,11 @@ export default function App() {
             </span>
             <span id="keyModifiers">
               <label>Key:</label><br/>
-              <input className="modifierInput" name="key" type="text" onChange={(e) => setKey(e.target.value)}></input>
+              <select name="key" onChange={(e) => setKey(e.target.value)}>
+                {['Ab', 'Eb', 'Bb', 'F', 'C', 'G', 'D', 'A', 'E', 'B', 'Gb', 'Db'].map((k) => {
+                  return (<option key='k'>{k}</option>);
+                })}
+              </select>
             </span>
             </div>
           </div>
