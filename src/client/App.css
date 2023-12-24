@@ -31,13 +31,13 @@ body {
 .songTitle {
   margin: 0em;
 }
-.sortModifiers {
+#sortModifiers {
   display: grid;
   width: fit-content;
   padding: 0.5em;
 }
 
-.searchModifiers {
+#searchModifiers {
   width: fit-content;
   padding: 0.5em;
 }
@@ -47,7 +47,7 @@ body {
   color: black;
 }
 
-.modifiers {
+#modifiers {
   display: grid;
   grid-template-columns: 3;
   grid-auto-flow: column;
