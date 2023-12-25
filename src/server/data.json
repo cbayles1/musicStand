@@ -2,7 +2,7 @@
     {
         "id": 0,
         "title": "Misty",
-        "author": "Errol Garner",
+        "authors": ["Errol Garner"],
         "key": "Eb",
         "links": [{
             "href": "https://www.learnjazzstandards.com/video/how-to-learn-misty-jazz-tutorial/",
@@ -12,7 +12,7 @@
     },{
         "id": 1,
         "title": "Mack The Knife",
-        "author": "Kurt Weill",
+        "authors": ["Kurt Weill"],
         "key": "Bb",
         "links": [
             {
@@ -24,7 +24,7 @@
     },{
         "id": 2,
         "title": "I Got Rhythm",
-        "author": "George Gershwin",
+        "authors": ["George Gershwin"],
         "key": "Bb",
         "links": [{
             "href": "https://www.learnjazzstandards.com/pdf-viewer/?pdf=I_Got_Rhythm_C_Instruments",
@@ -34,7 +34,7 @@
     },{
         "id": 3,
         "title": "Hard to Get",
-        "author": "Rich Mullins",
+        "authors": ["Rich Mullins"],
         "key": "G",
         "links": [{
             "href": "https://bpluschords.tripod.com/guitar/hard2get.htm", 
@@ -44,7 +44,7 @@
     },{
         "id": 4,
         "title": "Glory to God Forever",
-        "author": "Steve Fee",
+        "authors": ["Steve Fee"],
         "key": "G",
         "links": [{
             "href": "https://worshipchords.com/glory-to-god-forever-chords/", 
@@ -54,7 +54,7 @@
     },{
         "id": 5,
         "title": "Summertime",
-        "author": "George Gershwin",
+        "authors": ["George Gershwin"],
         "key": "Dm",
         "links": [{
             "href": "https://www.learnjazzstandards.com/jazz-standards/summertime/", 
@@ -64,7 +64,7 @@
     },{
         "id": 6,
         "title": "Suicide is Painless",
-        "author": "Johnny Mandel",
+        "authors": ["Johnny Mandel"],
         "key": "Am",
         "links": [{
             "href": "https://www.guitaretab.com/j/johnny-mandel/335391.html", 
@@ -74,7 +74,7 @@
     },{
         "id": 7,
         "title": "Pictionary",
-        "author": "Tim Follin",
+        "authors": ["Tim Follin"],
         "key": "G",
         "links": [{
             "href": "https://www.vgleadsheets.com/view/pictionary/title-screen?transposition=C", 
@@ -84,7 +84,7 @@
     },{
         "id": 8,
         "title": "Still Alive",
-        "author": "Jonathan Coulton",
+        "authors": ["Jonathan Coulton"],
         "key": "D",
         "links": [{
             "href": "https://www.vgleadsheets.com/view/portal/still-alive?transposition=C", 
@@ -94,7 +94,7 @@
     },{
         "id": 9,
         "title": "Green Hill Zone",
-        "author": "Masato Nakamura",
+        "authors": ["Masato Nakamura"],
         "key": "C",
         "links": [{
             "href": "https://www.vgleadsheets.com/view/sonic-the-hedgehog/green-hill-zone?transposition=C", 
@@ -104,7 +104,7 @@
     },{
         "id": 10,
         "title": "Bob-omb Battlefield",
-        "author": "Koji Kondo",
+        "authors": ["Koji Kondo"],
         "key": "C",
         "links": [{
             "href": "https://www.vgleadsheets.com/view/super-mario-64/main-theme?transposition=C", 
@@ -114,7 +114,7 @@
     },{
         "id": 11,
         "title": "Super Mario Bros. (Overworld)",
-        "author": "Koji Kondo",
+        "authors": ["Koji Kondo"],
         "key": "C",
         "links": [{
             "href": "https://www.vgleadsheets.com/view/super-mario-bros/overworld?transposition=C", 
@@ -124,7 +124,7 @@
     },{
         "id": 12,
         "title": "Jump Up, Super Star!",
-        "author": "Naoto Kubo",
+        "authors": ["Naoto Kubo"],
         "key": "C",
         "links": [{
             "href": "https://www.vgleadsheets.com/view/super-mario-odyssey/jump-up-super-star?transposition=C", 
@@ -134,7 +134,7 @@
     },{
         "id": 13,
         "title": "Tetris Type-A ('Korobeiniki')",
-        "author": "Hirokazu Tanaka",
+        "authors": ["Hirokazu Tanaka"],
         "key": "C",
         "links": [{
             "href": "https://www.vgleadsheets.com/view/tetris/tetris-type-a-korobeiniki?transposition=C", 
@@ -144,7 +144,7 @@
     },{
         "id": 14,
         "title": "Mii Plaza Theme",
-        "author": "Kazumi Totaka",
+        "authors": ["Kazumi Totaka"],
         "key": "A",
         "links": [{
             "href": "https://www.vgleadsheets.com/view/wii/mii-plaza?transposition=C", 
@@ -154,7 +154,7 @@
     },{
         "id": 15,
         "title": "Wii Sports Theme",
-        "author": "Kazumi Totaka",
+        "authors": ["Kazumi Totaka"],
         "key": "B",
         "links": [{
             "href": "https://www.vgleadsheets.com/view/wii-sports/title-screen?transposition=C", 
@@ -164,7 +164,7 @@
     },{
         "id": 16,
         "title": "White Christmas",
-        "author": "Bing Crosby",
+        "authors": ["Bing Crosby"],
         "key": "G",
         "links": [{
             "href": "https://www.azchords.com/b/bingcrosby-tabs-32045/whitechristmas-tabs-900574.html", 
@@ -174,7 +174,7 @@
     },{
         "id": 17,
         "title": "Strange Fruit",
-        "author": "Billie Holiday",
+        "authors": ["Billie Holiday"],
         "key": "Cm",
         "links": [{
             "href": "https://tabs.ultimate-guitar.com/tab/billie-holiday/strange-fruit-chords-2526957", 
@@ -184,7 +184,7 @@
     },{
         "id": 18,
         "title": "Herman's Habit",
-        "author": "Justin Hurwitz",
+        "authors": ["Justin Hurwitz"],
         "key": "Cm",
         "links": [{
             "href": "https://musescore.com/static/musescore/scoredata/g/acd72ea3758703727bdc184cc7a81d50924f46c2/score_0.svg?no-cache=1615473141", 
@@ -194,7 +194,7 @@
     },{
         "id": 19,
         "title": "The Girl from Ipanema",
-        "author": "Antônio Carlos Jobim",
+        "authors": ["Antônio Carlos Jobim"],
         "key": "F",
         "links": [{
             "href": "https://tabs.ultimate-guitar.com/tab/adam-neely/the-girl-from-ipanema-chords-3258908", 
@@ -204,7 +204,7 @@
     },{
         "id": 20,
         "title": "Sir Duke",
-        "author": "Stevie Wonder",
+        "authors": ["Stevie Wonder"],
         "key": "B",
         "links": [{
             "href": "https://tabs.ultimate-guitar.com/tab/stevie-wonder/sir-duke-chords-258845", 
@@ -214,7 +214,7 @@
     },{
         "id": 21,
         "title": "Bei Mir Bist Du Schoen",
-        "author": "Sholom Secunda",
+        "authors": ["Sholom Secunda"],
         "key": "Em",
         "links": [{
             "href": "https://tabs.ultimate-guitar.com/tab/janis-siegel/bei-mir-bist-du-schoen-chords-2382225", 
@@ -224,7 +224,7 @@
     },{
         "id": 22,
         "title": "Heart And Soul",
-        "author": "Hoagy Carmichael",
+        "authors": ["Hoagy Carmichael"],
         "key": "C",
         "links": [{
             "href": "https://tabs.ultimate-guitar.com/tab/frank-loesser/heart-and-soul-chords-915348", 
@@ -234,7 +234,7 @@
     },{
         "id": 23,
         "title": "His Eye Is On The Sparrow",
-        "author": "Charles H. Gabriel",
+        "authors": ["Charles H. Gabriel"],
         "key": "G",
         "links": [{
             "href": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://tabs.ultimate-guitar.com/tab/lauryn-hill/his-eye-is-on-the-sparrow-chords-1127683&ved=2ahUKEwivlJGvprSBAxWhDEQIHSKaD3gQFnoECBcQAQ&usg=AOvVaw0VJHmgQl7LAknbbZ1x0UOO",
@@ -244,7 +244,7 @@
     },{
         "id": 24,
         "title": "The Charleston",
-        "author": "James P. Johnson",
+        "authors": ["James P. Johnson"],
         "key": "Bb",
         "links": [{
             "href": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://tabs.ultimate-guitar.com/tab/jimmy-johnson/charleston-chords-2393193&ved=2ahUKEwiN1br48baBAxXjOX0KHearCkMQFnoECBYQAQ&usg=AOvVaw0OC7DMLGGF5LuFZrhUMR0f", 
@@ -254,7 +254,7 @@
     },{
         "id": 25,
         "title": "Amazing Grace",
-        "author": "John Newton",
+        "authors": ["John Newton"],
         "key": "G",
         "links": [{
             "href": "https://docs.google.com/document/d/1To2b27O8dWajVLoSxyJbv1NdSbw3WFQY/edit?usp=drivesdk&ouid=110574648581844868787&rtpof=true&sd=true", 
@@ -264,7 +264,7 @@
     },{
         "id": 26,
         "title": "I Left My Heart in San Francisco",
-        "author": "George Cory",
+        "authors": ["George Cory", "Tony Bennett"],
         "key": "C",
         "links": [{
             "href": "http://bettyloumusic.com/ileftmyheartinsanfrancisco.htm", 
@@ -274,7 +274,7 @@
     },{
         "id": 27,
         "title": "A Wink And A Smile",
-        "author": "Harry Connick Jr.",
+        "authors": ["Harry Connick Jr."],
         "key": "C",
         "links": [{
             "href": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://tabs.ultimate-guitar.com/tab/harry-connick-jr-/wink-and-a-smile-chords-2355387&ved=2ahUKEwiEs477qOSBAxWil4kEHU-RBfUQFnoECBYQAQ&usg=AOvVaw1HVQ4Fmr70_3in2K27hye8", 
@@ -284,7 +284,7 @@
     },{
         "id": 28,
         "title": "Give Me Jesus",
-        "author": "Fernando Ortega",
+        "authors": ["Fernando Ortega"],
         "key": "Bb",
         "links": [{
             "href": "https://www.praisecharts.com/preview/images/20232/20232_W_001.png", 

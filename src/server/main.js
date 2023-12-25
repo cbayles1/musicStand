@@ -37,9 +37,9 @@ function sortData(data, method) {
     if (method == "title") {
       a = aa.title.toUpperCase();
       b = bb.title.toUpperCase();
-    } else if (method == "author") {
-      a = aa.author.toUpperCase();
-      b = bb.author.toUpperCase();
+    } else if (method == "authors") {
+      a = aa.authors[0].toUpperCase();
+      b = bb.authors[0].toUpperCase();
     } else {
       a = aa.id;
       b = bb.id;
@@ -70,7 +70,10 @@ function sortData(data, method) {
 function searchData(data, method, value) {
   return data.filter((entry) => {
     if (method == "author") {
-      return entry.author.toLowerCase().includes(value.toLowerCase());
+      console.log(entry);
+      return entry.authors.some((author) => {
+        return author.toLowerCase().includes(value.toLowerCase());
+      });
     } else if (method == "title") {
       return entry.title.toLowerCase().includes(value.toLowerCase());
     }

@@ -37,7 +37,7 @@ export default function App() {
         <div id="modifierGrid">
           <span id="sortModifiers">
             Sort by:
-            {[['id', 'Date Added'], ['title', 'Title'], ['author', 'Author']].map((modifierArr, i) => {
+            {[['id', 'Date Added'], ['title', 'Title'], ['authors', 'Authors']].map((modifierArr, i) => {
               const modifier = modifierArr[0];
               const modifierLabel = modifierArr[1];
 
@@ -73,7 +73,7 @@ export default function App() {
             <label>Key:</label><br/>
             <select name="key" onChange={(e) => setKey(e.target.value)}>
               {['Ab', 'Eb', 'Bb', 'F', 'C', 'G', 'D', 'A', 'E', 'B', 'Gb', 'Db'].map((k) => {
-                return (<option key='k'>{k}</option>);
+                return (<option key={k}>{k}</option>);
               })}
             </select>
           </span>
@@ -116,7 +116,13 @@ export default function App() {
 function Tune({entry}) {
   return (
     <Collapsible className="tuneContainer" trigger={<h2 className="songTitle">{entry.title}</h2>} transitionTime={150} openedClassName="tuneContainer">
-      <h4 className="author">{entry.author}</h4>
+      
+      <span className="listContainer"><b>Authors:</b>
+        {entry.authors.map((author, i) => {
+          return <span key={i}>{author}{(entry.authors.length - 1 !== i) && ", "}</span>
+        })}
+      </span>
+
       <div className="listContainer"><b>Links:</b>
         {entry.links.map((link, i) => {
           if (link.name) {
@@ -126,12 +132,15 @@ function Tune({entry}) {
           }
         })}
       </div>
+
       <span className="listContainer"><b>Tags:</b>
         {entry.tags.map((tag, i) => {
           return <span key={i}>{tag}{(entry.tags.length - 1 !== i) && ", "}</span>
         })}
       </span>
+
       <div><b>Key:</b> {entry.key}</div>
+      
     </Collapsible>
   );
 }
