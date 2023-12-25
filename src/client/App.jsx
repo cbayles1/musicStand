@@ -6,7 +6,7 @@ import axios from 'axios';
 export default function App() {
   const [data, setData] = useState(null);
   const [fetchTrigger, setFetchTrigger] = useState(false);
-  const [sort, setSort] = useState(null);
+  const [sort, setSort] = useState('id');
   const [searchMethod, setSearchMethod] = useState(null);
   const [searchValue, setSearchValue] = useState(null);
   const [tag, setTag] = useState(null);

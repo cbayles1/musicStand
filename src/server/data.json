@@ -164,10 +164,10 @@
     },{
         "id": 16,
         "title": "White Christmas",
-        "authors": ["Bing Crosby"],
+        "authors": ["Irving Berlin", "Bing Crosby"],
         "key": "G",
         "links": [{
-            "href": "https://www.azchords.com/b/bingcrosby-tabs-32045/whitechristmas-tabs-900574.html", 
+            "href": "https://www.e-chords.com/keyboards/irving-berlin/white-christmas", 
             "name": "Chords"
         }],
         "tags":[]
@@ -290,6 +290,26 @@
             "href": "https://www.praisecharts.com/preview/images/20232/20232_W_001.png", 
             "name": "Chords"
         }],
-        "tags":[]
+        "tags":["hymn", "christian"]
+    },{
+        "id": 29,
+        "title": "Screen Door",
+        "authors": ["Rich Mullins"],
+        "key": "A",
+        "links": [{
+            "href": "https://www.worshiptabs.com/song/rich-mullins/screen-door",
+            "name": "Chords (simplify to a blues)"
+        }],
+        "tags": ["christian", "blues", "acapella"]
+    },{
+        "id": 30,
+        "title": "I Wanna Be Like You",
+        "authors": ["Louis Prima", "Phil Harris", "Sherman Brothers"],
+        "key": "C",
+        "links": [{
+            "href": "https://tabs.ultimate-guitar.com/tab/misc-cartoons/the-jungle-book-i-wanna-be-like-you-chords-1681233",
+            "name": "Chords"
+        }],
+        "tags": ["swing", "jump blues"]
     }
 ]}
