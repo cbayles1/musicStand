@@ -87,6 +87,10 @@ function taggedData(data, tag) {
 }
 
 function keyedData(data, tag) {
+  if (tag.toLowerCase() == 'all') {
+    return data;
+  } 
+
   return data.filter((entry) => {
     return entry.key.toLowerCase() == tag.toLowerCase();
   });

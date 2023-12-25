@@ -7,10 +7,10 @@ export default function App() {
   const [data, setData] = useState(null);
   const [fetchTrigger, setFetchTrigger] = useState(false);
   const [sort, setSort] = useState('id');
-  const [searchMethod, setSearchMethod] = useState(null);
+  const [searchMethod, setSearchMethod] = useState('title');
   const [searchValue, setSearchValue] = useState(null);
   const [tag, setTag] = useState(null);
-  const [key, setKey] = useState(null);
+  const [key, setKey] = useState('All');
 
   // Runs on page load
   useEffect(() => {
@@ -72,7 +72,7 @@ export default function App() {
           <span id="keyModifiers">
             <label>Key:</label><br/>
             <select name="key" onChange={(e) => setKey(e.target.value)}>
-              {['Ab', 'Eb', 'Bb', 'F', 'C', 'G', 'D', 'A', 'E', 'B', 'Gb', 'Db'].map((k) => {
+              {['All', 'Ab', 'Eb', 'Bb', 'F', 'C', 'G', 'D', 'A', 'E', 'B', 'Gb', 'Db', 'N/A'].map((k) => {
                 return (<option key={k}>{k}</option>);
               })}
             </select>
