@@ -50,7 +50,7 @@
             "href": "https://worshipchords.com/glory-to-god-forever-chords/", 
             "name": "Chords"
         }],
-        "tags":[]
+        "tags":["christian"]
     },{
         "id": 5,
         "title": "Summertime",
@@ -60,17 +60,17 @@
             "href": "https://www.learnjazzstandards.com/jazz-standards/summertime/", 
             "name": "Learn Jazz Standards"
         }],
-        "tags":[]
+        "tags":["jazz", "standard"]
     },{
         "id": 6,
-        "title": "Suicide is Painless",
+        "title": "Suicide is Painless (Theme from M*A*S*H)",
         "authors": ["Johnny Mandel"],
         "key": "Am",
         "links": [{
             "href": "https://www.guitaretab.com/j/johnny-mandel/335391.html", 
             "name": "Chords"
         }],
-        "tags":[]
+        "tags":["soundtrack", "tv"]
     },{
         "id": 7,
         "title": "Pictionary",
@@ -80,7 +80,7 @@
             "href": "https://www.vgleadsheets.com/view/pictionary/title-screen?transposition=C", 
             "name": "Chords"
         }],
-        "tags":[]
+        "tags":["soundtrack", "vgm", "rock"]
     },{
         "id": 8,
         "title": "Still Alive",
@@ -90,7 +90,7 @@
             "href": "https://www.vgleadsheets.com/view/portal/still-alive?transposition=C", 
             "name": "Chords"
         }],
-        "tags":[]
+        "tags":["soundtrack", "vgm", "jazz", "swing"]
     },{
         "id": 9,
         "title": "Green Hill Zone",
@@ -100,7 +100,7 @@
             "href": "https://www.vgleadsheets.com/view/sonic-the-hedgehog/green-hill-zone?transposition=C", 
             "name": "Chords"
         }],
-        "tags":[]
+        "tags":["soundtrack", "vgm"]
     },{
         "id": 10,
         "title": "Bob-omb Battlefield",
@@ -110,7 +110,7 @@
             "href": "https://www.vgleadsheets.com/view/super-mario-64/main-theme?transposition=C", 
             "name": "Chords"
         }],
-        "tags":[]
+        "tags":["soundtrack", "vgm", "funk"]
     },{
         "id": 11,
         "title": "Super Mario Bros. (Overworld)",
@@ -120,7 +120,7 @@
             "href": "https://www.vgleadsheets.com/view/super-mario-bros/overworld?transposition=C", 
             "name": "Chords"
         }],
-        "tags":[]
+        "tags":["soundtrack", "vgm"]
     },{
         "id": 12,
         "title": "Jump Up, Super Star!",
@@ -130,7 +130,7 @@
             "href": "https://www.vgleadsheets.com/view/super-mario-odyssey/jump-up-super-star?transposition=C", 
             "name": "Chords"
         }],
-        "tags":[]
+        "tags":["soundtrack", "vgm", "swing"]
     },{
         "id": 13,
         "title": "Tetris Type-A ('Korobeiniki')",
@@ -140,7 +140,7 @@
             "href": "https://www.vgleadsheets.com/view/tetris/tetris-type-a-korobeiniki?transposition=C", 
             "name": "Chords"
         }],
-        "tags":[]
+        "tags":["soundtrack", "vgm"]
     },{
         "id": 14,
         "title": "Mii Plaza Theme",
@@ -150,7 +150,7 @@
             "href": "https://www.vgleadsheets.com/view/wii/mii-plaza?transposition=C", 
             "name": "Chords"
         }],
-        "tags":[]
+        "tags":["soundtrack", "vgm", "bossa nova"]
     },{
         "id": 15,
         "title": "Wii Sports Theme",
@@ -160,7 +160,7 @@
             "href": "https://www.vgleadsheets.com/view/wii-sports/title-screen?transposition=C", 
             "name": "Chords"
         }],
-        "tags":[]
+        "tags":["soundtrack", "vgm", "funk"]
     },{
         "id": 16,
         "title": "White Christmas",
@@ -170,7 +170,7 @@
             "href": "https://www.e-chords.com/keyboards/irving-berlin/white-christmas", 
             "name": "Chords"
         }],
-        "tags":[]
+        "tags":["jazz", "swing", "christmas"]
     },{
         "id": 17,
         "title": "Strange Fruit",
@@ -180,7 +180,7 @@
             "href": "https://tabs.ultimate-guitar.com/tab/billie-holiday/strange-fruit-chords-2526957", 
             "name": "Chords"
         }],
-        "tags":[]
+        "tags":["blues", "jazz", "sad", "spiritual"]
     },{
         "id": 18,
         "title": "Herman's Habit",
@@ -190,7 +190,7 @@
             "href": "https://musescore.com/static/musescore/scoredata/g/acd72ea3758703727bdc184cc7a81d50924f46c2/score_0.svg?no-cache=1615473141", 
             "name": "Chords"
         }],
-        "tags":[]
+        "tags":["jazz", "soundtrack", "film"]
     },{
         "id": 19,
         "title": "The Girl from Ipanema",
@@ -200,7 +200,7 @@
             "href": "https://tabs.ultimate-guitar.com/tab/adam-neely/the-girl-from-ipanema-chords-3258908", 
             "name": "Chords (Adam Neely Arrangement)"
         }],
-        "tags":[]
+        "tags":["bossa nova", "standard"]
     },{
         "id": 20,
         "title": "Sir Duke",
@@ -210,17 +210,17 @@
             "href": "https://tabs.ultimate-guitar.com/tab/stevie-wonder/sir-duke-chords-258845", 
             "name": "Chords"
         }],
-        "tags":[]
+        "tags":["funk", "standard", "jazz"]
     },{
         "id": 21,
         "title": "Bei Mir Bist Du Schoen",
-        "authors": ["Sholom Secunda"],
+        "authors": ["Sholom Secunda", "Andrews Sisters"],
         "key": "Em",
         "links": [{
             "href": "https://tabs.ultimate-guitar.com/tab/janis-siegel/bei-mir-bist-du-schoen-chords-2382225", 
             "name": "Chords"
         }],
-        "tags":[]
+        "tags":["polka", "jazz", "swing"]
     },{
         "id": 22,
         "title": "Heart And Soul",
@@ -230,7 +230,7 @@
             "href": "https://tabs.ultimate-guitar.com/tab/frank-loesser/heart-and-soul-chords-915348", 
             "name": "Chords"
         }],
-        "tags":[]
+        "tags":["jazz", "standard"]
     },{
         "id": 23,
         "title": "His Eye Is On The Sparrow",
@@ -240,7 +240,7 @@
             "href": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://tabs.ultimate-guitar.com/tab/lauryn-hill/his-eye-is-on-the-sparrow-chords-1127683&ved=2ahUKEwivlJGvprSBAxWhDEQIHSKaD3gQFnoECBcQAQ&usg=AOvVaw0VJHmgQl7LAknbbZ1x0UOO",
             "name": "Chords"
         }],
-        "tags":[]
+        "tags":["christian", "gospel", "hymn"]
     },{
         "id": 24,
         "title": "The Charleston",
@@ -250,7 +250,7 @@
             "href": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://tabs.ultimate-guitar.com/tab/jimmy-johnson/charleston-chords-2393193&ved=2ahUKEwiN1br48baBAxXjOX0KHearCkMQFnoECBYQAQ&usg=AOvVaw0OC7DMLGGF5LuFZrhUMR0f", 
             "name": "Chords"
         }],
-        "tags":[]
+        "tags":["jazz", "ragtime", "hot"]
     },{
         "id": 25,
         "title": "Amazing Grace",
@@ -260,7 +260,7 @@
             "href": "https://docs.google.com/document/d/1To2b27O8dWajVLoSxyJbv1NdSbw3WFQY/edit?usp=drivesdk&ouid=110574648581844868787&rtpof=true&sd=true", 
             "name": "Chords (Worship Nights Arrangment)"
         }],
-        "tags":[]
+        "tags":["christian", "hymn", "gospel"]
     },{
         "id": 26,
         "title": "I Left My Heart in San Francisco",
@@ -270,7 +270,7 @@
             "href": "http://bettyloumusic.com/ileftmyheartinsanfrancisco.htm", 
             "name": "Chords"
         }],
-        "tags":[]
+        "tags":["jazz", "swing"]
     },{
         "id": 27,
         "title": "A Wink And A Smile",
@@ -280,7 +280,7 @@
             "href": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://tabs.ultimate-guitar.com/tab/harry-connick-jr-/wink-and-a-smile-chords-2355387&ved=2ahUKEwiEs477qOSBAxWil4kEHU-RBfUQFnoECBYQAQ&usg=AOvVaw1HVQ4Fmr70_3in2K27hye8", 
             "name": "Chords"
         }],
-        "tags":[]
+        "tags":["jazz", "hot", "nola"]
     },{
         "id": 28,
         "title": "Give Me Jesus",
@@ -310,6 +310,6 @@
             "href": "https://tabs.ultimate-guitar.com/tab/misc-cartoons/the-jungle-book-i-wanna-be-like-you-chords-1681233",
             "name": "Chords"
         }],
-        "tags": ["swing", "jump blues"]
+        "tags": ["swing", "jump blues", "jazz", "soundtrack", "film"]
     }
 ]}
