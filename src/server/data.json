@@ -2,7 +2,7 @@
     {
         "id": 0,
         "title": "Misty",
-        "authors": ["Errol Garner"],
+        "authors": ["Errol Garner", "Ella Fitzgerald", "Johnny Burke"],
         "key": "Eb",
         "links": [{
             "href": "https://www.learnjazzstandards.com/video/how-to-learn-misty-jazz-tutorial/",
@@ -12,12 +12,15 @@
     },{
         "id": 1,
         "title": "Mack The Knife",
-        "authors": ["Kurt Weill"],
+        "authors": ["Kurt Weill", "Louis Armstrong", "Bobby Darin", "Bertolt Brecht", "Marc Blitzstein"],
         "key": "Bb",
         "links": [
             {
                 "href": "https://www.google.com/search?q=mack+the+knife+lyrics&oq=mack+the+knife+lyrics&aqs=chrome.0.69i59l2.3389j0j7&client=ms-android-verizon&sourceid=chrome-mobile&ie=UTF-8",
                 "name": "Lyrics"
+            },{
+                "href": "https://tabs.ultimate-guitar.com/tab/bobby-darin/mack-the-knife-chords-2008403",
+                "name": "Chords"
             }
         ],
         "tags": ["jazz", "opera", "swing"]
@@ -27,7 +30,7 @@
         "authors": ["George Gershwin"],
         "key": "Bb",
         "links": [{
-            "href": "https://www.learnjazzstandards.com/pdf-viewer/?pdf=I_Got_Rhythm_C_Instruments",
+            "href": "https://www.learnjazzstandards.com/jazz-standards/ive-got-rhythm/",
             "name": "Learn Jazz Standards"
         }],
         "tags": ["jazz", "standard"]
@@ -44,7 +47,7 @@
     },{
         "id": 4,
         "title": "Glory to God Forever",
-        "authors": ["Steve Fee"],
+        "authors": ["Steve Fee", "Vicky Beeching"],
         "key": "G",
         "links": [{
             "href": "https://worshipchords.com/glory-to-god-forever-chords/", 
@@ -85,7 +88,7 @@
         "id": 8,
         "title": "Still Alive",
         "authors": ["Jonathan Coulton"],
-        "key": "D",
+        "key": "N/A",
         "links": [{
             "href": "https://www.vgleadsheets.com/view/portal/still-alive?transposition=C", 
             "name": "Chords"
@@ -125,7 +128,7 @@
         "id": 12,
         "title": "Jump Up, Super Star!",
         "authors": ["Naoto Kubo"],
-        "key": "C",
+        "key": "N/A",
         "links": [{
             "href": "https://www.vgleadsheets.com/view/super-mario-odyssey/jump-up-super-star?transposition=C", 
             "name": "Chords"
@@ -135,7 +138,7 @@
         "id": 13,
         "title": "Tetris Type-A ('Korobeiniki')",
         "authors": ["Hirokazu Tanaka"],
-        "key": "C",
+        "key": "E",
         "links": [{
             "href": "https://www.vgleadsheets.com/view/tetris/tetris-type-a-korobeiniki?transposition=C", 
             "name": "Chords"
@@ -145,7 +148,7 @@
         "id": 14,
         "title": "Mii Plaza Theme",
         "authors": ["Kazumi Totaka"],
-        "key": "A",
+        "key": "N/A",
         "links": [{
             "href": "https://www.vgleadsheets.com/view/wii/mii-plaza?transposition=C", 
             "name": "Chords"
@@ -155,7 +158,7 @@
         "id": 15,
         "title": "Wii Sports Theme",
         "authors": ["Kazumi Totaka"],
-        "key": "B",
+        "key": "N/A",
         "links": [{
             "href": "https://www.vgleadsheets.com/view/wii-sports/title-screen?transposition=C", 
             "name": "Chords"
@@ -174,7 +177,7 @@
     },{
         "id": 17,
         "title": "Strange Fruit",
-        "authors": ["Billie Holiday"],
+        "authors": ["Abel Meeropol", "Billie Holiday"],
         "key": "Cm",
         "links": [{
             "href": "https://tabs.ultimate-guitar.com/tab/billie-holiday/strange-fruit-chords-2526957", 
@@ -194,7 +197,7 @@
     },{
         "id": 19,
         "title": "The Girl from Ipanema",
-        "authors": ["Antônio Carlos Jobim"],
+        "authors": ["Antônio Carlos Jobim", "Stan Getz", "João Gilberto", "Astrud Gilberto", "Vinícius de Moraes"],
         "key": "F",
         "links": [{
             "href": "https://tabs.ultimate-guitar.com/tab/adam-neely/the-girl-from-ipanema-chords-3258908", 
@@ -214,7 +217,7 @@
     },{
         "id": 21,
         "title": "Bei Mir Bist Du Schoen",
-        "authors": ["Sholom Secunda", "Andrews Sisters"],
+        "authors": ["Sholom Secunda",  "Jacob Jacobs", "Andrews Sisters", "Sammy Cahn", "Saul Chaplin"],
         "key": "Em",
         "links": [{
             "href": "https://tabs.ultimate-guitar.com/tab/janis-siegel/bei-mir-bist-du-schoen-chords-2382225", 
@@ -224,7 +227,7 @@
     },{
         "id": 22,
         "title": "Heart And Soul",
-        "authors": ["Hoagy Carmichael"],
+        "authors": ["Hoagy Carmichael", "Frank Loesser", "Larry Clinton"],
         "key": "C",
         "links": [{
             "href": "https://tabs.ultimate-guitar.com/tab/frank-loesser/heart-and-soul-chords-915348", 
@@ -234,7 +237,7 @@
     },{
         "id": 23,
         "title": "His Eye Is On The Sparrow",
-        "authors": ["Charles H. Gabriel"],
+        "authors": ["Charles H. Gabriel", "Civilla D. Martin", " Ethel Waters"],
         "key": "G",
         "links": [{
             "href": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://tabs.ultimate-guitar.com/tab/lauryn-hill/his-eye-is-on-the-sparrow-chords-1127683&ved=2ahUKEwivlJGvprSBAxWhDEQIHSKaD3gQFnoECBcQAQ&usg=AOvVaw0VJHmgQl7LAknbbZ1x0UOO",
@@ -244,7 +247,7 @@
     },{
         "id": 24,
         "title": "The Charleston",
-        "authors": ["James P. Johnson"],
+        "authors": ["James P. Johnson", "Cecil Mack"],
         "key": "Bb",
         "links": [{
             "href": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://tabs.ultimate-guitar.com/tab/jimmy-johnson/charleston-chords-2393193&ved=2ahUKEwiN1br48baBAxXjOX0KHearCkMQFnoECBYQAQ&usg=AOvVaw0OC7DMLGGF5LuFZrhUMR0f", 
@@ -254,7 +257,7 @@
     },{
         "id": 25,
         "title": "Amazing Grace",
-        "authors": ["John Newton"],
+        "authors": ["John Newton", "Traditional"],
         "key": "G",
         "links": [{
             "href": "https://docs.google.com/document/d/1To2b27O8dWajVLoSxyJbv1NdSbw3WFQY/edit?usp=drivesdk&ouid=110574648581844868787&rtpof=true&sd=true", 
@@ -264,7 +267,7 @@
     },{
         "id": 26,
         "title": "I Left My Heart in San Francisco",
-        "authors": ["George Cory", "Tony Bennett"],
+        "authors": ["George Cory", "Douglass Cross", "Tony Bennett"],
         "key": "C",
         "links": [{
             "href": "http://bettyloumusic.com/ileftmyheartinsanfrancisco.htm", 
@@ -284,7 +287,7 @@
     },{
         "id": 28,
         "title": "Give Me Jesus",
-        "authors": ["Fernando Ortega"],
+        "authors": ["Traditional", "Jacob Knapp", "Fernando Ortega"],
         "key": "Bb",
         "links": [{
             "href": "https://www.praisecharts.com/preview/images/20232/20232_W_001.png", 
