@@ -17,11 +17,22 @@ body {
 }
 
 .tuneContainer {
-  background-color: aqua;
+  background-color: rgb(0,120,160);
   padding: 1em;
   padding-top: 0.5em;
   margin: 1em;
   border-radius: 2cap;
+  color: rgb(0,220,220);
+}
+
+a {
+  color: rgb(0,220,220);
+}
+a:hover {
+  color: white;
+}
+a:active {
+  color: rgb(0,220,220);
 }
 
 .author {
@@ -32,20 +43,9 @@ body {
   margin: 0em;
 }
 
-#modifiersHeader {
-  text-align: center;
-  background-color: aqua;
-  width: fit-content;
-  padding: 0.6em;
-  align-self: center;
-  border-radius: 2cap;
-  font-size: 1rem;
-  color: black;
-}
-
 #modifierForm {
-  background-color: white;
-  color: black;
+  background-color: rgb(0,120,160);
+  color: rgb(0,220,220);
   padding: 1em;
   min-width: 20em;
   border-radius: 2cap;
@@ -72,10 +72,11 @@ body {
 }
 
 .modifierInput {
-  background-color: rgb(0,170,170);
+  background-color: rgb(0,220,220);
   width: 90%;
   border-color: rgba(0,0,0,0);
   border-width: 0.1em;
+  color: black;
 }
 
 #modifierSubmit {
@@ -86,12 +87,20 @@ body {
   align-self: center;
   border-radius: 2cap;
   border-color: rgba(0, 0, 0, 0);
-  background-color: rgb(0,170,170);
+  background-color: rgb(0,220,220);
+  color: black;
 }
 #modifierSubmit:hover {
   background-color: rgb(0,200,256);
 }
 #modifierSubmit:active {
-  background-color: rgb(0,170,170);
+  background-color: rgb(0,220,220);
 }
 
+#collectionLinkContainer {
+  display: flex;
+  flex-direction: row;
+}
+.collectionLink {
+  margin: 0.5em;
+}

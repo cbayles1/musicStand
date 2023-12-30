@@ -314,5 +314,15 @@
             "name": "Chords"
         }],
         "tags": ["swing", "jump blues", "jazz", "soundtrack", "film"]
+    },{
+        "id": 31,
+        "title": "Gilligan's Isle",
+        "authors": ["Sherwood Schwartz", "George Wyle"],
+        "key": "N/A",
+        "links": [{
+            "name": "Chords",
+            "href": "https://www.geukulelejam.com/ewExternalFiles/Ballad%20of%20Gilligans%20Island.pdf"
+        }],
+        "tags": ["soundtrack", "tv"]
     }
 ]}

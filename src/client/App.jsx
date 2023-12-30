@@ -30,6 +30,12 @@ export default function App() {
 
   return (
     <main>
+      <div id="collectionLinkContainer">
+        <a className="collectionLink" href="https://hymnary.org/">Hymnary</a>
+        <a className="collectionLink" href="https://www.vgleadsheets.com/">VGM Lead Sheets</a>
+        <a className="collectionLink" href="https://drive.google.com/file/d/1J-J5N_hSskErYIkc3h2Mfv73qcixYKsM/view?usp=sharing">Real Book</a>
+        <a className="collectionLink" href="https://drive.google.com/file/d/1txhsjoSMZDCQ96ihH_DZIQXaS--vvB_t/view?usp=sharing">Dixieland Book</a>
+      </div>
       <form id="modifierForm" onSubmit={(event) => {
         event.preventDefault();
         setFetchTrigger(true);
@@ -57,7 +63,7 @@ export default function App() {
           </span>
           <span id="searchModifiers">
             <label>Search by:</label><br/>
-            <select name="searchMethod" onChange={(e) => setSearchMethod(e.target.value)}>
+            <select className="modifierInput" name="searchMethod" onChange={(e) => setSearchMethod(e.target.value)}>
               <option value="title">Title</option>
               <option value="author">Author</option>
             </select><br/>
@@ -71,7 +77,7 @@ export default function App() {
           </span>
           <span id="keyModifiers">
             <label>Key:</label><br/>
-            <select name="key" onChange={(e) => setKey(e.target.value)}>
+            <select className="modifierInput" name="key" onChange={(e) => setKey(e.target.value)}>
               {['All', 'Ab', 'Eb', 'Bb', 'F', 'C', 'G', 'D', 'A', 'E', 'B', 'Gb', 'Db', 'Abm', 'Ebm', 'Bbm', 'Fm', 'Cm', 'Gm', 'Dm', 'Am', 'Em', 'Bm', 'Gbm', 'Dbm', 'N/A'].map((k) => {
                 return (<option key={k}>{k}</option>);
               })}
