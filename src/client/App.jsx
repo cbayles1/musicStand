@@ -4,8 +4,9 @@ import Collapsible from "react-collapsible";
 import axios from 'axios';
 
 export default function App() {
-  const [data, setData] = useState(null);
   const [fetchTrigger, setFetchTrigger] = useState(false);
+  const [data, setData] = useState(null);
+  const [visibleKeys, setVisibleKeys] = useState([]);
   const [sort, setSort] = useState('id');
   const [searchMethod, setSearchMethod] = useState('title');
   const [searchValue, setSearchValue] = useState(null);
@@ -78,7 +79,7 @@ export default function App() {
           <span id="keyModifiers">
             <label>Key:</label><br/>
             <select className="modifierInput" name="key" onChange={(e) => setKey(e.target.value)}>
-              {['All', 'Ab', 'Eb', 'Bb', 'F', 'C', 'G', 'D', 'A', 'E', 'B', 'Gb', 'Db', 'Abm', 'Ebm', 'Bbm', 'Fm', 'Cm', 'Gm', 'Dm', 'Am', 'Em', 'Bm', 'Gbm', 'Dbm', 'N/A'].map((k) => {
+              {visibleKeys.map((k) => {
                 return (<option key={k}>{k}</option>);
               })}
             </select>
@@ -98,6 +99,11 @@ export default function App() {
       setData(result);
       setFetchTrigger(false);
     });
+
+    const res = await axios.get('http://localhost:3000/getAllKeys');
+    const visibleKeys = res.data;
+    visibleKeys.unshift('All');
+    setVisibleKeys(visibleKeys);
   }
 
   async function makeRequest() {

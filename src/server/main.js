@@ -24,6 +24,12 @@ app.get("/getData", (req, res) => {
   res.send(myData);
 });
 
+app.get("/getAllKeys", (req, res) => {
+  const allKeys = Array.from(new Set(data.data.map((entry) => entry.key)));
+  allKeys.sort();
+  res.send(allKeys);
+});
+
 ViteExpress.listen(app, 3000, () =>
   console.log("Server is listening on port 3000..."),
 );
