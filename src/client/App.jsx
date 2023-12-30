@@ -31,11 +31,14 @@ export default function App() {
 
   return (
     <main>
-      <div id="collectionLinkContainer">
-        <a className="collectionLink" href="https://hymnary.org/">Hymnary</a>
-        <a className="collectionLink" href="https://www.vgleadsheets.com/">VGM Lead Sheets</a>
-        <a className="collectionLink" href="https://drive.google.com/file/d/1J-J5N_hSskErYIkc3h2Mfv73qcixYKsM/view?usp=sharing">Real Book</a>
-        <a className="collectionLink" href="https://drive.google.com/file/d/1txhsjoSMZDCQ96ihH_DZIQXaS--vvB_t/view?usp=sharing">Dixieland Book</a>
+      <div id="topRowWrapper">
+        <div id="collectionLinkContainer">
+          <a className="collectionLink" href="https://hymnary.org/">Hymnary</a>
+          <a className="collectionLink" href="https://www.vgleadsheets.com/">VGM Lead Sheets</a>
+          <a className="collectionLink" href="https://drive.google.com/file/d/1J-J5N_hSskErYIkc3h2Mfv73qcixYKsM/view?usp=sharing">Real Book</a>
+          <a className="collectionLink" href="https://drive.google.com/file/d/1txhsjoSMZDCQ96ihH_DZIQXaS--vvB_t/view?usp=sharing">Dixieland Book</a>
+        </div>
+        <button id="shuffle" onClick={shuffleData}>Shuffle</button>
       </div>
       <form id="modifierForm" onSubmit={(event) => {
         event.preventDefault();
@@ -123,6 +126,12 @@ export default function App() {
     const res = await axios.get('http://localhost:3000/getData', {params: params});
     return res.data;
   }
+  
+  async function shuffleData() {
+    const copiedData = [...data]; // deep copy
+    copiedData.sort(() => Math.random() - 0.5);
+    setData(copiedData);
+  };
 }
 
 function Tune({entry}) {
