@@ -76,7 +76,6 @@ function sortData(data, method) {
 function searchData(data, method, value) {
   return data.filter((entry) => {
     if (method == "author") {
-      console.log(entry);
       return entry.authors.some((author) => {
         return author.toLowerCase().includes(value.toLowerCase());
       });
