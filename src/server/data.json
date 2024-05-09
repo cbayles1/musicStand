@@ -53,7 +53,7 @@
             "href": "https://worshipchords.com/glory-to-god-forever-chords/", 
             "name": "Chords"
         }],
-        "tags":["christian"]
+        "tags":["christian", "worship"]
     },{
         "id": 5,
         "title": "Summertime",
@@ -316,13 +316,73 @@
         "tags": ["swing", "jump blues", "jazz", "soundtrack", "film"]
     },{
         "id": 31,
-        "title": "Gilligan's Isle",
+        "title": "Ballad of Gilligan's Isle",
         "authors": ["Sherwood Schwartz", "George Wyle"],
         "key": "N/A",
         "links": [{
             "name": "Chords",
-            "href": "https://www.geukulelejam.com/ewExternalFiles/Ballad%20of%20Gilligans%20Island.pdf"
+            "href": "https://tabs.ultimate-guitar.com/tab/misc-television/gilligans-island-theme-chords-1064153"
         }],
         "tags": ["soundtrack", "tv"]
+    },{
+        "id": 32,
+        "title": "The World We Knew",
+        "authors": ["Frank Sinatra", "Bert Kaempfert", "Herbert Rehbein", "Carl Sigman"],
+        "key": "Bbm",
+        "links": [{
+            "name": "Chords",
+            "href": "https://www.chordsology.com/frank-sinatra/the-world-we-knew-over-and-over-chords/"
+        }],
+        "tags": ["rock", "pop"]
+    },{
+        "id": 33,
+        "title": "Sentimental Journey",
+        "authors": ["Doris Day", "Les Brown", "Ben Homer", "Bud Green"],
+        "key": "C",
+        "links": [{
+            "name": "Chords",
+            "href": "https://tabs.ultimate-guitar.com/tab/doris-day/sentimental-journey-chords-1667434"
+        }],
+        "tags": ["pop", "swing"]
+    },{
+        "id": 34,
+        "title": "I Won't Dance",
+        "authors": ["Frank Sinatra", "Fred Astaire", "Ginger Rodgers", "Jerome Kern"],
+        "key": "C",
+        "links": [{
+            "name": "Chords",
+            "href": "https://tabs.ultimate-guitar.com/tab/jerome-kern/i-wont-dance-chords-3355880"
+        }],
+        "tags": ["pop", "swing"]
+    },{
+        "id": 35,
+        "title": "Good Vibrations",
+        "authors": ["Brian Wilson", "Mike Love"],
+        "key": "Ebm",
+        "links": [{
+            "name": "Chords",
+            "href": "https://tabs.ultimate-guitar.com/tab/the-beach-boys/good-vibrations-chords-258349"
+        }],
+        "tags": ["rock"]
+    },{
+        "id": 36,
+        "title": "Graditude",
+        "authors": ["Brandon Lake"],
+        "key": "B",
+        "links": [{
+            "name": "Chords",
+            "href": "https://www.worshiptogether.com/songs/gratitude-brandon-lake/"
+        }],
+        "tags": ["rock", "christian", "worship"]
+    },{
+        "id": 37,
+        "title": "St. Louis Blues",
+        "authors": ["W.C. Handy", "Bessie Smith", "Louis Armstrong"],
+        "key": "G",
+        "links": [{
+            "name": "Chords",
+            "href": "https://tabs.ultimate-guitar.com/tab/bessie-smith/st-louis-blues-chords-1690203"
+        }],
+        "tags": ["blues", "jazz"]
     }
 ]}
