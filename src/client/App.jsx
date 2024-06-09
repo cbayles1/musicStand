@@ -37,6 +37,7 @@ export default function App() {
           <a className="collectionLink" href="https://www.vgleadsheets.com/">VGM Lead Sheets</a>
           <a className="collectionLink" href="https://drive.google.com/file/d/1J-J5N_hSskErYIkc3h2Mfv73qcixYKsM/view?usp=sharing">Real Book</a>
           <a className="collectionLink" href="https://drive.google.com/file/d/1txhsjoSMZDCQ96ihH_DZIQXaS--vvB_t/view?usp=sharing">Dixieland Book</a>
+          <a className="collectionLink" href="https://drive.google.com/drive/mobile/folders/1PzX4kS9c4WzaFfottk5x6m7N-NRX508y">Worship Nights Folder</a>
         </div>
         <button id="shuffle" onClick={shuffleData}>Shuffle</button>
       </div>

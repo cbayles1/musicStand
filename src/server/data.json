@@ -62,6 +62,9 @@
         "links": [{
             "href": "https://www.learnjazzstandards.com/jazz-standards/summertime/", 
             "name": "Learn Jazz Standards"
+        },{
+            "href": "https://genius.com/George-gershwin-summertime-lyrics",
+            "name": "Lyrics"
         }],
         "tags":["jazz", "standard"]
     },{
@@ -384,5 +387,208 @@
             "href": "https://tabs.ultimate-guitar.com/tab/bessie-smith/st-louis-blues-chords-1690203"
         }],
         "tags": ["blues", "jazz"]
+    },{
+        "id": 38,
+        "title": "The Object of My Affection",
+        "authors": ["The Boswell Sisters", "Pinky Tomlin", "Coy Poe", "Jimmie Grier"],
+        "key": "Ab",
+        "links": [{
+            "name": "Lead Sheet",
+            "href": "https://musescore.com/user/54012492/scores/10936012"
+        }],
+        "tags": ["jazz", "swing"]
+    },{
+        "id": 39,
+        "title": "Abide with Me (Eventide)",
+        "authors": ["Henry Francis Lyte", "William Henry Monk"],
+        "key": "Eb",
+        "links": [{
+            "name": "Lead Sheet",
+            "href": "https://drive.google.com/file/d/1tpWmUH6nn_v3NIsJd5TiRY8n8QvN3zzw/view?usp=drive_link"
+        }],
+        "tags": ["hymn", "christian"]
+    },{
+        "id": 40,
+        "title": "Come Thou Fount of Every Blessing",
+        "authors": ["Robert Robinson", "Traditional"],
+        "key": "D",
+        "links": [{
+            "name": "Chords",
+            "href": "https://drive.google.com/file/d/1ZGOyF1Ekfb_UWWDjboCQAZX_BXZsTT7Q/view?usp=drive_link"
+        }],
+        "tags": ["hymn", "christian"]
+    },{
+        "id": 41,
+        "title": "Crown Him",
+        "authors": ["Jake Gehret", "Matthew Bridges", "George Job Elvey", "Gregg Sewell", "Godfrey Thring"],
+        "key": "Em",
+        "links": [{
+            "name": "Chords",
+            "href": "https://drive.google.com/file/d/11RNyCKYUbZZX7a-qdqb5nB20RkKdYiY6/view?usp=drive_link"
+        }],
+        "tags": ["christian", "worship"]
+    },{
+        "id": 42,
+        "title": "This Is My Father's World",
+        "authors": ["Maltbie Davenport Babcock", "Franklin L Sheppard"],
+        "key": "C",
+        "links": [{
+            "name": "Chords",
+            "href": "https://drive.google.com/file/d/1JaeW1ye-FDaM0Nl44M77-jcpLXS5LWZf/view?usp=drive_link"
+        }],
+        "tags": ["hymn", "christian"]
+    },{
+        "id": 43,
+        "title": "Doxology",
+        "authors": ["Thomas Ken", "Louis Bourgeois"],
+        "key": "G",
+        "links": [{
+            "name": "Chords",
+            "href": "https://drive.google.com/file/d/1_1ZIs-PU0FLJeBrAKPNPxYZtrfqJ13AV/view?usp=drive_link"
+        }],
+        "tags": ["hymn", "christian"]
+    },{
+        "id": 44,
+        "title": "Everybody Loves My Baby",
+        "authors": ["Spencer Williams", "Jack Palmer", "Louis Armstrong", "The Boswell Sisters"],
+        "key": "Dm",
+        "links": [{
+            "name": "Chords",
+            "href": "https://drive.google.com/file/d/1vGJNWBtFMKah0prUYfS9h_yoBH0ENw0C/view?usp=drive_link"
+        }],
+        "tags": ["jazz"]
+    },{
+        "id": 45,
+        "title": "I'm an Old Cowhand",
+        "authors": ["Johnny Mercer", "Bing Crosby"],
+        "key": "C",
+        "links": [{
+            "name": "Chords and Tabs",
+            "href": "https://drive.google.com/file/d/1X1r2lwbZPaLbN9uGruXRaP_BViIAPM_D/view?usp=drive_link"
+        }],
+        "tags": ["swing", "western"]
+    },{
+        "id": 46,
+        "title": "I've Got a Gal in Kalamazoo",
+        "authors": ["Mack Gordon", "Harry Warren", "Glenn Miller"],
+        "key": "Eb",
+        "links": [{
+            "name": "Lead Sheet",
+            "href": "https://drive.google.com/file/d/1KX3cNm_vJkchb14oB5adCkG6-rqhmuli/view?usp=drive_link"
+        }],
+        "tags": ["swing", "jazz"]
+    },{
+        "id": 47,
+        "title": "It Is Well With My Soul",
+        "authors": ["Horatio Spafford", "Philip Bliss"],
+        "key": "C",
+        "links": [{
+            "name": "Chords",
+            "href": "https://drive.google.com/file/d/12zcdj4rOOr1kchS8D9QZHh83MhE7jFeW/view?usp=drive_link"
+        }],
+        "tags": ["hymn", "christian"]
+    },{
+        "id": 48,
+        "title": "O Help My Unbelief",
+        "authors": ["Andrew Osenga"],
+        "key": "Bm",
+        "links": [{
+            "name": "Chords",
+            "href": "https://drive.google.com/file/d/12FJHkDptaDFjZZWM5XIgSBFKzm9mlwsS/view?usp=drive_link"
+        }],
+        "tags": ["christian", "worship"]
+    },{
+        "id": 49,
+        "title": "Were You There",
+        "authors": ["Traditional"],
+        "key": "C",
+        "links": [{
+            "name": "Chords",
+            "href": "https://drive.google.com/file/d/11xnZU1Apgr_fv2opx57CMD2lUYsEFa7F/view?usp=drive_link"
+        }],
+        "tags": ["hymn", "christian", "gospel"]
+    },{
+        "id": 50,
+        "title": "Work Song",
+        "authors": ["Nat Adderley", "Oscar Brown Jr"],
+        "key": "Dm",
+        "links": [{
+            "name": "Chords",
+            "href": "https://drive.google.com/file/d/1A9jTm_GzRlMoW1Ma03B1L7D-sYr7Mp3Z/view?usp=drive_link"
+        }],
+        "tags": ["blues", "jazz"]
+    },{
+        "id": 51,
+        "title": "Yes, We Have No Bananas",
+        "authors": ["Frank Silver", "Irving Cohn", "Louis Prima"],
+        "key": "C",
+        "links": [{
+            "name": "Chords",
+            "href": "https://drive.google.com/file/d/1lIBkrugD9kI0tA2XHAphIRMAZ-tVveXG/view?usp=drive_link"
+        }],
+        "tags": ["jazz"]
+    },{
+        "id": 52,
+        "title": "Inkwell Isle One (Cuphead)",
+        "authors": ["Kristofer Maddigan"],
+        "key": "G",
+        "links": [{
+            "name": "Lead Sheet",
+            "href": "https://www.vgleadsheets.com/view/cuphead/inkwell-isle-one?transposition=C"
+        }],
+        "tags": ["jazz", "ragtime", "vgm"]
+    },{
+        "id": 53,
+        "title": "The Legend of Zelda (Overworld)",
+        "authors": ["Koji Kondo"],
+        "key": "Bb",
+        "links": [{
+            "name": "Lead Sheet",
+            "href": "https://www.vgleadsheets.com/view/the-legend-of-zelda/overworld?transposition=C#"
+        }],
+        "tags": ["vgm"]
+    },{
+        "id": 54,
+        "title": "As Time Goes By",
+        "authors": ["Herman Hupfeld", "Dooley Wilson", "Jean Vincent Plummer"],
+        "key": "C",
+        "links": [{
+            "name": "Chords",
+            "href": "https://tabs.ultimate-guitar.com/tab/misc-soundtrack/casablanca-as-time-goes-by-chords-644487"
+        }],
+        "tags": ["jazz", "swing"]
+    },{
+        "id": 55,
+        "title": "If I Didn't Have You",
+        "authors": ["Randy Newman", "Billy Crystal", "John Goodman"],
+        "key": "Eb",
+        "links": [{
+            "name": "Chords",
+            "href": "https://tabs.ultimate-guitar.com/tab/randy-newman/if-i-didnt-have-you-chords-1072159"
+        }],
+        "tags": ["film", "jazz", "swing"]
+    },{
+        "id": 56,
+        "title": "Good Morning",
+        "authors": ["Gene Kelly", "Debbie Reynolds", "Donald O'Connor", "Nacio Herb Brown", "Arthur Freed"],
+        "key": "G",
+        "links": [{
+            "name": "Chords",
+            "href": "https://www.vgleadsheets.com/view/the-legend-of-zelda/overworld?transposition=C#"
+        }],
+        "tags": ["film", "swing"]
+    },{
+        "id": 56,
+        "title": "Satin Doll",
+        "authors": ["Billy Strayhorn", "Duke Ellington"],
+        "key": "C",
+        "links": [{
+            "name": "Lead Sheet",
+            "href": "https://www.jazz-guitar-licks.com/medias/images/satin-doll-sheet-music.png"
+        },{
+            "name": "Lyrics",
+            "href": "https://www.lyrics.com/lyric/25352662/Duke+Ellington"
+        }],
+        "tags": ["jazz", "swing"]
     }
 ]}
