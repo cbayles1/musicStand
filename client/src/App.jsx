@@ -102,9 +102,14 @@ export default function App() {
     await makeRequest().then((result) => {
       setData(result);
       setFetchTrigger(false);
+      console.log(result);
     });
 
-    const res = await axios.get('http://localhost:3000/getAllKeys');
+    const res = await axios.get('http://localhost:5000/getAllKeys', {
+      headers: {
+        "Content-Type": "application/json"
+      }
+    });
     const visibleKeys = res.data;
     visibleKeys.unshift('All');
     setVisibleKeys(visibleKeys);
@@ -124,7 +129,12 @@ export default function App() {
       params.searchValue = null;
     }
   
-    const res = await axios.get('http://localhost:3000/getData', {params: params});
+    const res = await axios.get('http://localhost:5000/getData', {
+      headers: {
+        "Content-Type": "application/json"
+      },
+      params: params
+    });
     return res.data;
   }
   
