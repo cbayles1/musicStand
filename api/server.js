@@ -4,6 +4,8 @@ const data = require("./data.json");
 
 const app = express();
 
+const apiHostPort = 5000;
+
 // Allows Cross-Origin-Resource-Sharing so that one host can pull a script from another host. 
 // Usually JS doesn't like this, but we can make a request past its guard.
 app.use(cors());
@@ -34,8 +36,8 @@ app.get("/getData", (req, res) => {
     res.send(allKeys);
   });
   
-  app.listen(5000, () => {
-    console.log("Server is listening on port 5000.");
+  app.listen(apiHostPort, () => {
+    console.log(`Server is listening on port ${apiHostPort.toString()}.`);
   });
   
   function sortData(data, method) {

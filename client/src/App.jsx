@@ -3,6 +3,10 @@ import "./App.css";
 import Collapsible from "react-collapsible";
 import axios from 'axios';
 
+const apiHostAddress = '192.168.1.75'; // RasPi
+//const apiHostAddress = '192.168.1.66'; // PC
+const apiHostPort = 5000;
+
 export default function App() {
   const [fetchTrigger, setFetchTrigger] = useState(false);
   const [data, setData] = useState(null);
@@ -102,10 +106,9 @@ export default function App() {
     await makeRequest().then((result) => {
       setData(result);
       setFetchTrigger(false);
-      console.log(result);
     });
 
-    const res = await axios.get('http://localhost:5000/getAllKeys', {
+    const res = await axios.get(`http://${apiHostAddress}:${apiHostPort.toString()}/getAllKeys`, {
       headers: {
         "Content-Type": "application/json"
       }
@@ -129,7 +132,7 @@ export default function App() {
       params.searchValue = null;
     }
   
-    const res = await axios.get('http://localhost:5000/getData', {
+    const res = await axios.get(`http://${apiHostAddress}:${apiHostPort.toString()}/getData`, {
       headers: {
         "Content-Type": "application/json"
       },
