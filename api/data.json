@@ -456,7 +456,7 @@
             "name": "Chords",
             "href": "https://drive.google.com/file/d/1vGJNWBtFMKah0prUYfS9h_yoBH0ENw0C/view?usp=drive_link"
         }],
-        "tags": ["jazz"]
+        "tags": ["jazz", "pop"]
     },{
         "id": 45,
         "title": "I'm an Old Cowhand",
@@ -466,7 +466,7 @@
             "name": "Chords and Tabs",
             "href": "https://drive.google.com/file/d/1X1r2lwbZPaLbN9uGruXRaP_BViIAPM_D/view?usp=drive_link"
         }],
-        "tags": ["swing", "western"]
+        "tags": ["swing", "western", "pop"]
     },{
         "id": 46,
         "title": "I've Got a Gal in Kalamazoo",
@@ -476,7 +476,7 @@
             "name": "Lead Sheet",
             "href": "https://drive.google.com/file/d/1KX3cNm_vJkchb14oB5adCkG6-rqhmuli/view?usp=drive_link"
         }],
-        "tags": ["swing", "jazz"]
+        "tags": ["swing", "jazz", "pop"]
     },{
         "id": 47,
         "title": "It Is Well With My Soul",
@@ -526,7 +526,7 @@
             "name": "Chords",
             "href": "https://drive.google.com/file/d/1lIBkrugD9kI0tA2XHAphIRMAZ-tVveXG/view?usp=drive_link"
         }],
-        "tags": ["jazz"]
+        "tags": ["jazz", "novelty", "pop"]
     },{
         "id": 52,
         "title": "Inkwell Isle One (Cuphead)",
@@ -556,7 +556,7 @@
             "name": "Chords",
             "href": "https://tabs.ultimate-guitar.com/tab/misc-soundtrack/casablanca-as-time-goes-by-chords-644487"
         }],
-        "tags": ["jazz", "swing"]
+        "tags": ["jazz", "swing", "pop"]
     },{
         "id": 55,
         "title": "If I Didn't Have You",
@@ -576,9 +576,9 @@
             "name": "Chords",
             "href": "https://www.vgleadsheets.com/view/the-legend-of-zelda/overworld?transposition=C#"
         }],
-        "tags": ["film", "swing"]
+        "tags": ["film", "swing", "pop"]
     },{
-        "id": 56,
+        "id": 57,
         "title": "Satin Doll",
         "authors": ["Billy Strayhorn", "Duke Ellington"],
         "key": "C",
@@ -590,5 +590,25 @@
             "href": "https://www.lyrics.com/lyric/25352662/Duke+Ellington"
         }],
         "tags": ["jazz", "swing"]
+    },{
+        "id": 58,
+        "title": "Where is my Hairbrush?",
+        "authors": ["Mike Nawrocki", "Kurt Heinecke"],
+        "key": "Dm",
+        "links": [{
+            "name": "Chords",
+            "href": "https://tabs.ultimate-guitar.com/tab/misc-cartoons/veggietales-the-hairbrush-song-chords-3941702"
+        }],
+        "tags": ["opera", "broadway", "novelty"]
+    },{
+        "id": 59,
+        "title": "Over the Rainbow",
+        "authors": ["Harold Arlen", "Yip Harburg", "Judy Garland"],
+        "key": "Eb",
+        "links": [{
+            "name": "Lead Sheet",
+            "href": "https://www.jccdallas.org/wp-content/uploads/2018/09/somewhere-over-the-rainbow-sheet-music2.pdf"
+        }],
+        "tags": ["pop", "broadway", "novelty"]
     }
 ]}
