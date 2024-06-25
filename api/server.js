@@ -219,7 +219,13 @@ function keyedData(data, tag) {
 }
 
 function getNextId(data) {
-  return data[data.length - 1].id + 1;
+  let newestSong = data[0];
+  data.forEach((song) => {
+    if (song.id > newestSong.id) {
+      newestSong = song;
+    }
+  });
+  return newestSong.id + 1;
 }
 
 function writeToJSONFile(myData) {

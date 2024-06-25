@@ -1,9 +1,9 @@
-import { createContext, useEffect, useState } from "react";
+import { useState } from "react";
 import "./App.css";
 import axios from 'axios';
 
-const apiHostAddress = '192.168.1.75'; // RasPi
-//const apiHostAddress = '192.168.1.66'; // PC
+//const apiHostAddress = '192.168.1.75'; // RasPi
+const apiHostAddress = 'localhost'; // PC
 const apiHostPort = 5000;
 
 export default function App() {
@@ -16,19 +16,19 @@ export default function App() {
 
 function AddSongForm() {
   const [title, setTitle] = useState("");
-  const [key, setKey] = useState("N/A");
   const [authors, setAuthors] = useState([]);
-  
-  return (<form class="backdoorForm" onSubmit={(event) => {
-    event.preventDefault();
-  }}>
-    <h2 class="backdoorHeader">Add Song</h2>
+  const [key, setKey] = useState("N/A");
+
+  return (<div className="backdoorForm">
+    <h2 className="backdoorHeader">Add Song</h2>
     <SoloTextInput name="title" label="Title" onChangeFunc={setTitle}/>
     <InputArr arrLabel="Authors" arrHook={authors} setArrHook={setAuthors}/>
     <SoloTextInput name="key" label="Key" onChangeFunc={setKey}/>
     <br/>
-    <input className="backdoorButton" type="submit"/>
-  </form>);
+    <button className="addItemButton" onClick={(e) => {
+      addSong(title, authors, key);
+    }}>Submit</button>
+  </div>);
 }
 
 function RemoveSongForm() {
@@ -58,6 +58,7 @@ function InputArr({arrLabel, arrHook, setArrHook}) {
         <input value={next} onChange={e => setNext(e.target.value)} />
         <button className="addItemButton" onClick={() => {
           if (next.length > 0 && !arrHook.includes(next)) {
+            console.log("Adding author...");
             setArrHook([...arrHook, next]);
           }
         }}>Add</button>
@@ -69,7 +70,14 @@ function InputArr({arrLabel, arrHook, setArrHook}) {
 
 function SoloTextInput({name, label, onChangeFunc}) {
   return (<>
-    <label for={name}>{label}: </label>
+    <label htmlFor={name}>{label}: </label>
     <input id={name} name={name} type="text" onChange={(e) => onChangeFunc(e.target.value)}></input>
   </>);
+}
+
+async function addSong(title, authors, key) {
+  console.log("Adding song...");
+  const res = await axios.post(`http://${apiHostAddress}:${apiHostPort.toString()}/addSong`, 
+  {title: title, authors: authors, key: key}, 
+  {headers: {"Content-Type": "application/json"}});
 }

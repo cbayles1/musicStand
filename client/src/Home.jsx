@@ -3,8 +3,8 @@ import "./App.css";
 import Collapsible from "react-collapsible";
 import axios from 'axios';
 
-const apiHostAddress = '192.168.1.75'; // RasPi
-//const apiHostAddress = '192.168.1.66'; // PC
+//const apiHostAddress = '192.168.1.75'; // RasPi
+const apiHostAddress = '192.168.1.66'; // PC
 const apiHostPort = 5000;
 
 export default function Home() {
@@ -149,28 +149,36 @@ export default function Home() {
 }
 
 function Tune({entry}) {
+  let authors = [];
+  let links = [];
+  let tags = [];
+
+  if (entry.authors) authors = entry.authors;
+  if (entry.links) links = entry.links;
+  if (entry.tags) tags = entry.tags;
+
   return (
     <Collapsible className="tuneContainer" trigger={<h2 className="songTitle">{entry.title}</h2>} transitionTime={150} openedClassName="tuneContainer">
       
       <span className="listContainer"><b>Authors:</b>
-        {entry.authors.map((author, i) => {
-          return <span key={i}>{author}{(entry.authors.length - 1 !== i) && ", "}</span>
+        {authors.map((author, i) => {
+          return <span key={i}>{author}{(authors.length - 1 !== i) && ", "}</span>
         })}
       </span>
 
       <div className="listContainer"><b>Links:</b>
-        {entry.links.map((link, i) => {
+        {links.map((link, i) => {
           if (link.name) {
-            return <a key={i} href={link.href}>{link.name}{(entry.links.length - 1 !== i) && ", "}</a>
+            return <a key={i} href={link.href}>{link.name}{(links.length - 1 !== i) && ", "}</a>
           } else {
-            return <a key={i} href={link.href}>{link.href}{(entry.links.length - 1 !== i) && ", "}</a>
+            return <a key={i} href={link.href}>{link.href}{(links.length - 1 !== i) && ", "}</a>
           }
         })}
       </div>
 
       <span className="listContainer"><b>Tags:</b>
-        {entry.tags.map((tag, i) => {
-          return <span key={i}>{tag}{(entry.tags.length - 1 !== i) && ", "}</span>
+        {tags.map((tag, i) => {
+          return <span key={i}>{tag}{(tags.length - 1 !== i) && ", "}</span>
         })}
       </span>
 
