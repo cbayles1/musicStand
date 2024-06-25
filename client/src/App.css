@@ -129,6 +129,66 @@ a:active {
   background-color: rgb(0,220,220);
 }
 
-#albert {
+.backdoorForm {
+  background-color: rgb(0,120,160);
+  /*color: rgb(0,220,220);*/
   color: white;
+  padding: 1em;
+  min-width: 20em;
+  border-radius: 2cap;
+  text-align: center;
+}
+
+.backdoorHeader {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.addItemButton {
+  height: fit-content;
+  padding: 0.3em;
+  border-radius: 1cap;
+  border-color: rgba(0, 0, 0, 0);
+  background-color: rgb(0,220,220);
+  color: black;
+  margin: 0.1em;
+  margin-left: 0.5em;
+  justify-self: end;
+  font-size: small;
+}
+
+.inputArr {
+  margin: 0.5em;
+  padding: 0em;
+}
+
+.arrItemsList {
+  list-style-type: none;
+  display: flex;
+  gap: 0.5em;
+  margin: 0.5em;
+}
+
+.deleteItemButton {
+  background-color: rgba(0,0,0,0);
+  color: darkgrey;
+  padding: 0em;
+  margin: 0em;
+  font-size: small;
+}
+
+.arrItem {
+  color: black;
+  background-color: white;
+  border-radius: 1cap;
+  width: fit-content;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  font-size: small;
+}
+
+.inputArrLabel {
+  margin: 0em;
 }
