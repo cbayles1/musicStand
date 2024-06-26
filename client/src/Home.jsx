@@ -6,8 +6,8 @@ import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import { AddSongForm, RemoveSongForm, EditSongForm } from "./Edit";
 
-//const apiHostAddress = '192.168.1.75'; // RasPi
-const apiHostAddress = '192.168.1.66'; // PC
+const apiHostAddress = '192.168.1.75'; // RasPi
+//const apiHostAddress = '192.168.1.66'; // PC
 const apiHostPort = 5000;
 
 export default function Home() {

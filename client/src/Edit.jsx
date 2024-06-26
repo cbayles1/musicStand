@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import axios from 'axios';
 
-//const apiHostAddress = '192.168.1.75'; // RasPi
-const apiHostAddress = 'localhost'; // PC
+const apiHostAddress = '192.168.1.75'; // RasPi
+//const apiHostAddress = 'localhost'; // PC
 const apiHostPort = 5000;
 
 export function AddSongForm({popupRef, setFetchTrigger}) {
