@@ -97,10 +97,13 @@ a:active {
   background-color: rgb(0,220,220);
 }
 
-#topRowWrapper {
+#collectionsRowWrapper {
   display: grid;
   grid-auto-flow: column;
   grid-template-rows: 1;
+  justify-content: center;
+  padding: 0.5em;
+  padding-top: 0em;
 }
 
 #collectionLinkContainer {
@@ -112,20 +115,20 @@ a:active {
   margin: 0.5em;
 }
 
-#shuffle {
+.topRowButton {
   height: fit-content;
   padding: 0.7em;
-  border-radius: 2cap;
+  border-radius: 1cap;
   border-color: rgba(0, 0, 0, 0);
   background-color: rgb(0,220,220);
   color: black;
   margin: 0.5em;
   justify-self: end;
 }
-#shuffle:hover {
+.topRowButton:hover {
   background-color: rgb(0,200,256);
 }
-#shuffle:active {
+.topRowButton:active {
   background-color: rgb(0,220,220);
 }
 
@@ -191,4 +194,22 @@ a:active {
 
 .inputArrLabel {
   margin: 0em;
+}
+
+.submitButton {
+  height: fit-content;
+  padding: 0.3em;
+  border-radius: 1cap;
+  border-color: rgba(0, 0, 0, 0);
+  background-color: rgb(0,220,220);
+  color: black;
+  margin: 0.1em;
+  margin-top: 1em;
+  justify-self: end;
+  font-size: small;
+}
+
+#popupButtonsContainer {
+  display: flex;
+  justify-content: center;
 }

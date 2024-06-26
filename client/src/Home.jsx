@@ -1,7 +1,10 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import "./App.css";
 import Collapsible from "react-collapsible";
 import axios from 'axios';
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
+import { AddSongForm, RemoveSongForm, EditSongForm } from "./Backdoor";
 
 //const apiHostAddress = '192.168.1.75'; // RasPi
 const apiHostAddress = '192.168.1.66'; // PC
@@ -16,6 +19,11 @@ export default function Home() {
   const [searchValue, setSearchValue] = useState(null);
   const [tag, setTag] = useState(null);
   const [key, setKey] = useState('All');
+  const [showCollections, setShowCollections] = useState(false);
+  const [submissionAlert, setSubmissionAlert] = useState(false);
+  const addSongPopup = useRef();
+  const editSongPopup = useRef();
+  const removeSongPopup = useRef();
 
   // Runs on page load
   useEffect(() => {
@@ -33,17 +41,34 @@ export default function Home() {
     return <p>Loading...</p>;
   }
 
+  let collectionLinks = <></>;
+  if (showCollections) {
+    collectionLinks = (<div>
+    <a className="collectionLink" href="https://hymnary.org/">Hymnary</a>
+    <a className="collectionLink" href="https://www.vgleadsheets.com/">VGM Lead Sheets</a>
+    <a className="collectionLink" href="https://drive.google.com/file/d/1J-J5N_hSskErYIkc3h2Mfv73qcixYKsM/view?usp=sharing">Real Book</a>
+    <a className="collectionLink" href="https://drive.google.com/file/d/1txhsjoSMZDCQ96ihH_DZIQXaS--vvB_t/view?usp=sharing">Dixieland Book</a>
+    <a className="collectionLink" href="https://drive.google.com/drive/mobile/folders/1PzX4kS9c4WzaFfottk5x6m7N-NRX508y">Worship Nights Folder</a>
+    </div>);
+  }
+
   return (
     <main>
-      <div id="topRowWrapper">
-        <div id="collectionLinkContainer">
-          <a className="collectionLink" href="https://hymnary.org/">Hymnary</a>
-          <a className="collectionLink" href="https://www.vgleadsheets.com/">VGM Lead Sheets</a>
-          <a className="collectionLink" href="https://drive.google.com/file/d/1J-J5N_hSskErYIkc3h2Mfv73qcixYKsM/view?usp=sharing">Real Book</a>
-          <a className="collectionLink" href="https://drive.google.com/file/d/1txhsjoSMZDCQ96ihH_DZIQXaS--vvB_t/view?usp=sharing">Dixieland Book</a>
-          <a className="collectionLink" href="https://drive.google.com/drive/mobile/folders/1PzX4kS9c4WzaFfottk5x6m7N-NRX508y">Worship Nights Folder</a>
-        </div>
-        <button id="shuffle" onClick={shuffleData}>Shuffle</button>
+      <div id="popupButtonsContainer">  
+          <Popup ref={addSongPopup} trigger={<button className="topRowButton">Add Song</button>} modal position="center center"><AddSongForm popupRef={addSongPopup} setFetchTrigger={setFetchTrigger}/></Popup>
+          <Popup ref={editSongPopup} trigger={<button className="topRowButton">Edit Song</button>} modal position="center center"><EditSongForm popupRef={addSongPopup} setFetchTrigger={setFetchTrigger}/></Popup>
+          <Popup ref={removeSongPopup} trigger={<button className="topRowButton">Remove Song</button>} modal position="center center"><RemoveSongForm popupRef={addSongPopup} setFetchTrigger={setFetchTrigger}/></Popup>
+          <button className="topRowButton" onClick={() => { // toggle showing collections
+            if (showCollections) {
+              setShowCollections(false);
+            } else {
+              setShowCollections(true);
+            }
+          }}>Collections</button>
+          <button className="topRowButton" onClick={shuffleData}>Shuffle</button>
+      </div>
+      <div id="collectionsRowWrapper">
+        {collectionLinks}
       </div>
       <form id="modifierForm" onSubmit={(event) => {
         event.preventDefault();
