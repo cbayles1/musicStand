@@ -39,8 +39,24 @@ a:active {
   margin: 0em;
 }
 
+.tuneTrigger {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 2;
+}
+
 .songTitle {
   margin: 0em;
+  justify-self: left;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.songId {
+  margin: 0em;
+  justify-self: right;
+  font-size: x-large;
+  font-weight: 400;
 }
 
 #modifierForm {
@@ -91,7 +107,7 @@ a:active {
   color: black;
 }
 #modifierSubmit:hover {
-  background-color: rgb(0,200,256);
+  background-color: rgb(0,200,200);
 }
 #modifierSubmit:active {
   background-color: rgb(0,220,220);
@@ -126,7 +142,7 @@ a:active {
   justify-self: end;
 }
 .topRowButton:hover {
-  background-color: rgb(0,200,256);
+  background-color: rgb(0,200,200);
 }
 .topRowButton:active {
   background-color: rgb(0,220,220);
@@ -170,6 +186,7 @@ a:active {
   display: flex;
   gap: 0.5em;
   margin: 0.5em;
+  justify-content: center;
 }
 
 .deleteItemButton {
@@ -212,4 +229,20 @@ a:active {
 #popupButtonsContainer {
   display: flex;
   justify-content: center;
+}
+
+#removeSongForm {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+#removeSongForm input { /*all inputs that are descendants of #removeSongForm*/
+  max-width: 8em;
+}
+
+#editSongGetSongRow {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
 }

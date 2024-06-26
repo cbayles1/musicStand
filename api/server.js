@@ -83,11 +83,11 @@ app.post("/deleteSong", (req, res) => {
   try {
     const input = req.body;
     if (input.id != null && input.id >= 0) {
-      myData = myData.filter(song => song.id != req.id); // replace with array w/out song
+      myData = myData.filter(song => song.id != input.id); // replace with array w/out song
     } else if (input.title != null) {
-      myData = myData.filter(song => song.title != req.title); // replace with array w/out song
+      myData = myData.filter(song => song.title != input.title); // replace with array w/out song
     } else {
-      res.status(400).send("Song could not be found.");
+      res.status(400).send("Please provide either a song ID or a song title.");
       return; // don't write to file and don't give 200 success msg
     }
 
@@ -119,7 +119,7 @@ app.post("/editSong", (req, res) => {
         }
       }
     } else {
-      res.status(400).send("Song could not be found.");
+      res.status(400).send("Please provide either a song ID or a song title.");
       return; // don't edit, don't write to file, and don't give 200 success msg
     }
 

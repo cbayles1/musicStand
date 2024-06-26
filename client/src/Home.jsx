@@ -4,7 +4,7 @@ import Collapsible from "react-collapsible";
 import axios from 'axios';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
-import { AddSongForm, RemoveSongForm, EditSongForm } from "./Backdoor";
+import { AddSongForm, RemoveSongForm, EditSongForm } from "./Edit";
 
 //const apiHostAddress = '192.168.1.75'; // RasPi
 const apiHostAddress = '192.168.1.66'; // PC
@@ -20,7 +20,6 @@ export default function Home() {
   const [tag, setTag] = useState(null);
   const [key, setKey] = useState('All');
   const [showCollections, setShowCollections] = useState(false);
-  const [submissionAlert, setSubmissionAlert] = useState(false);
   const addSongPopup = useRef();
   const editSongPopup = useRef();
   const removeSongPopup = useRef();
@@ -55,9 +54,15 @@ export default function Home() {
   return (
     <main>
       <div id="popupButtonsContainer">  
-          <Popup ref={addSongPopup} trigger={<button className="topRowButton">Add Song</button>} modal position="center center"><AddSongForm popupRef={addSongPopup} setFetchTrigger={setFetchTrigger}/></Popup>
-          <Popup ref={editSongPopup} trigger={<button className="topRowButton">Edit Song</button>} modal position="center center"><EditSongForm popupRef={addSongPopup} setFetchTrigger={setFetchTrigger}/></Popup>
-          <Popup ref={removeSongPopup} trigger={<button className="topRowButton">Remove Song</button>} modal position="center center"><RemoveSongForm popupRef={addSongPopup} setFetchTrigger={setFetchTrigger}/></Popup>
+          <Popup ref={addSongPopup} trigger={<button className="topRowButton">Add Song</button>} modal position="center center">
+            <AddSongForm popupRef={addSongPopup} setFetchTrigger={setFetchTrigger}/>
+          </Popup>
+          <Popup ref={editSongPopup} trigger={<button className="topRowButton">Edit Song</button>} modal position="center center">
+            <EditSongForm popupRef={editSongPopup} setFetchTrigger={setFetchTrigger}/>
+          </Popup>
+          <Popup ref={removeSongPopup} trigger={<button className="topRowButton">Remove Song</button>} modal position="center center">
+            <RemoveSongForm popupRef={removeSongPopup} setFetchTrigger={setFetchTrigger}/>
+          </Popup>
           <button className="topRowButton" onClick={() => { // toggle showing collections
             if (showCollections) {
               setShowCollections(false);
@@ -183,7 +188,12 @@ function Tune({entry}) {
   if (entry.tags) tags = entry.tags;
 
   return (
-    <Collapsible className="tuneContainer" trigger={<h2 className="songTitle">{entry.title}</h2>} transitionTime={150} openedClassName="tuneContainer">
+    <Collapsible className="tuneContainer" trigger={
+      <div className="tuneTrigger">
+        <div className="songTitle">{entry.title}</div>
+        <div className="songId">ID: {entry.id}</div>
+      </div>
+    } transitionTime={150} openedClassName="tuneContainer">
       
       <span className="listContainer"><b>Authors:</b>
         {authors.map((author, i) => {
