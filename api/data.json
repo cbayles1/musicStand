@@ -1,6 +1,6 @@
 [
   {
-    "id": 59,
+    "id": 7,
     "title": "Over the Rainbow",
     "authors": [
       "Harold Arlen",
@@ -11,7 +11,7 @@
     "links": [
       {
         "name": "Lead Sheet",
-        "href": "https://www.jccdallas.org/wp-content/uploads/2018/09/somewhere-over-the-rainbow-sheet-music2.pdf"
+        "href": "https://link_to_lead_sheet"
       }
     ],
     "tags": [
@@ -21,288 +21,7 @@
     ]
   },
   {
-    "id": 58,
-    "title": "Where is my Hairbrush?",
-    "authors": [
-      "Mike Nawrocki",
-      "Kurt Heinecke"
-    ],
-    "key": "Dm",
-    "links": [
-      {
-        "name": "Chords",
-        "href": "https://tabs.ultimate-guitar.com/tab/misc-cartoons/veggietales-the-hairbrush-song-chords-3941702"
-      }
-    ],
-    "tags": [
-      "opera",
-      "broadway",
-      "novelty"
-    ]
-  },
-  {
-    "id": 57,
-    "title": "Satin Doll",
-    "authors": [
-      "Billy Strayhorn",
-      "Duke Ellington"
-    ],
-    "key": "C",
-    "links": [
-      {
-        "name": "Lead Sheet",
-        "href": "https://www.jazz-guitar-licks.com/medias/images/satin-doll-sheet-music.png"
-      },
-      {
-        "name": "Lyrics",
-        "href": "https://www.lyrics.com/lyric/25352662/Duke+Ellington"
-      }
-    ],
-    "tags": [
-      "jazz",
-      "swing"
-    ]
-  },
-  {
-    "id": 56,
-    "title": "Good Morning",
-    "authors": [
-      "Gene Kelly",
-      "Debbie Reynolds",
-      "Donald O'Connor",
-      "Nacio Herb Brown",
-      "Arthur Freed"
-    ],
-    "key": "G",
-    "links": [
-      {
-        "name": "Chords",
-        "href": "https://www.vgleadsheets.com/view/the-legend-of-zelda/overworld?transposition=C#"
-      }
-    ],
-    "tags": [
-      "film",
-      "swing",
-      "pop"
-    ]
-  },
-  {
-    "id": 55,
-    "title": "If I Didn't Have You",
-    "authors": [
-      "Randy Newman",
-      "Billy Crystal",
-      "John Goodman"
-    ],
-    "key": "Eb",
-    "links": [
-      {
-        "name": "Chords",
-        "href": "https://tabs.ultimate-guitar.com/tab/randy-newman/if-i-didnt-have-you-chords-1072159"
-      }
-    ],
-    "tags": [
-      "film",
-      "jazz",
-      "swing"
-    ]
-  },
-  {
-    "id": 54,
-    "title": "As Time Goes By",
-    "authors": [
-      "Herman Hupfeld",
-      "Dooley Wilson",
-      "Jean Vincent Plummer"
-    ],
-    "key": "C",
-    "links": [
-      {
-        "name": "Chords",
-        "href": "https://tabs.ultimate-guitar.com/tab/misc-soundtrack/casablanca-as-time-goes-by-chords-644487"
-      }
-    ],
-    "tags": [
-      "jazz",
-      "swing",
-      "pop"
-    ]
-  },
-  {
-    "id": 53,
-    "title": "The Legend of Zelda (Overworld)",
-    "authors": [
-      "Koji Kondo"
-    ],
-    "key": "Bb",
-    "links": [
-      {
-        "name": "Lead Sheet",
-        "href": "https://www.vgleadsheets.com/view/the-legend-of-zelda/overworld?transposition=C#"
-      }
-    ],
-    "tags": [
-      "vgm"
-    ]
-  },
-  {
-    "id": 52,
-    "title": "Inkwell Isle One (Cuphead)",
-    "authors": [
-      "Kristofer Maddigan"
-    ],
-    "key": "G",
-    "links": [
-      {
-        "name": "Lead Sheet",
-        "href": "https://www.vgleadsheets.com/view/cuphead/inkwell-isle-one?transposition=C"
-      }
-    ],
-    "tags": [
-      "jazz",
-      "ragtime",
-      "vgm"
-    ]
-  },
-  {
-    "id": 51,
-    "title": "Yes, We Have No Bananas",
-    "authors": [
-      "Frank Silver",
-      "Irving Cohn",
-      "Louis Prima"
-    ],
-    "key": "C",
-    "links": [
-      {
-        "name": "Chords",
-        "href": "https://drive.google.com/file/d/1lIBkrugD9kI0tA2XHAphIRMAZ-tVveXG/view?usp=drive_link"
-      }
-    ],
-    "tags": [
-      "jazz",
-      "novelty",
-      "pop"
-    ]
-  },
-  {
-    "id": 50,
-    "title": "Work Song",
-    "authors": [
-      "Nat Adderley",
-      "Oscar Brown Jr"
-    ],
-    "key": "Dm",
-    "links": [
-      {
-        "name": "Chords",
-        "href": "https://drive.google.com/file/d/1A9jTm_GzRlMoW1Ma03B1L7D-sYr7Mp3Z/view?usp=drive_link"
-      }
-    ],
-    "tags": [
-      "blues",
-      "jazz"
-    ]
-  },
-  {
-    "id": 49,
-    "title": "Were You There",
-    "authors": [
-      "Traditional"
-    ],
-    "key": "C",
-    "links": [
-      {
-        "name": "Chords",
-        "href": "https://drive.google.com/file/d/11xnZU1Apgr_fv2opx57CMD2lUYsEFa7F/view?usp=drive_link"
-      }
-    ],
-    "tags": [
-      "hymn",
-      "christian",
-      "gospel"
-    ]
-  },
-  {
-    "id": 48,
-    "title": "O Help My Unbelief",
-    "authors": [
-      "Andrew Osenga"
-    ],
-    "key": "Bm",
-    "links": [
-      {
-        "name": "Chords",
-        "href": "https://drive.google.com/file/d/12FJHkDptaDFjZZWM5XIgSBFKzm9mlwsS/view?usp=drive_link"
-      }
-    ],
-    "tags": [
-      "christian",
-      "worship"
-    ]
-  },
-  {
-    "id": 47,
-    "title": "It Is Well With My Soul",
-    "authors": [
-      "Horatio Spafford",
-      "Philip Bliss"
-    ],
-    "key": "C",
-    "links": [
-      {
-        "name": "Chords",
-        "href": "https://drive.google.com/file/d/12zcdj4rOOr1kchS8D9QZHh83MhE7jFeW/view?usp=drive_link"
-      }
-    ],
-    "tags": [
-      "hymn",
-      "christian"
-    ]
-  },
-  {
-    "id": 46,
-    "title": "I've Got a Gal in Kalamazoo",
-    "authors": [
-      "Mack Gordon",
-      "Harry Warren",
-      "Glenn Miller"
-    ],
-    "key": "Eb",
-    "links": [
-      {
-        "name": "Lead Sheet",
-        "href": "https://drive.google.com/file/d/1KX3cNm_vJkchb14oB5adCkG6-rqhmuli/view?usp=drive_link"
-      }
-    ],
-    "tags": [
-      "swing",
-      "jazz",
-      "pop"
-    ]
-  },
-  {
-    "id": 45,
-    "title": "I'm an Old Cowhand",
-    "authors": [
-      "Johnny Mercer",
-      "Bing Crosby"
-    ],
-    "key": "C",
-    "links": [
-      {
-        "name": "Chords and Tabs",
-        "href": "https://drive.google.com/file/d/1X1r2lwbZPaLbN9uGruXRaP_BViIAPM_D/view?usp=drive_link"
-      }
-    ],
-    "tags": [
-      "swing",
-      "western",
-      "pop"
-    ]
-  },
-  {
-    "id": 44,
+    "id": 6,
     "title": "Everybody Loves My Baby",
     "authors": [
       "Spencer Williams",
@@ -314,7 +33,7 @@
     "links": [
       {
         "name": "Chords",
-        "href": "https://drive.google.com/file/d/1vGJNWBtFMKah0prUYfS9h_yoBH0ENw0C/view?usp=drive_link"
+        "href": "https://link_to_chords"
       }
     ],
     "tags": [
@@ -323,165 +42,7 @@
     ]
   },
   {
-    "id": 43,
-    "title": "Doxology",
-    "authors": [
-      "Thomas Ken",
-      "Louis Bourgeois"
-    ],
-    "key": "G",
-    "links": [
-      {
-        "name": "Chords",
-        "href": "https://drive.google.com/file/d/1_1ZIs-PU0FLJeBrAKPNPxYZtrfqJ13AV/view?usp=drive_link"
-      }
-    ],
-    "tags": [
-      "hymn",
-      "christian"
-    ]
-  },
-  {
-    "id": 42,
-    "title": "This Is My Father's World",
-    "authors": [
-      "Maltbie Davenport Babcock",
-      "Franklin L Sheppard"
-    ],
-    "key": "C",
-    "links": [
-      {
-        "name": "Chords",
-        "href": "https://drive.google.com/file/d/1JaeW1ye-FDaM0Nl44M77-jcpLXS5LWZf/view?usp=drive_link"
-      }
-    ],
-    "tags": [
-      "hymn",
-      "christian"
-    ]
-  },
-  {
-    "id": 41,
-    "title": "Crown Him",
-    "authors": [
-      "Jake Gehret",
-      "Matthew Bridges",
-      "George Job Elvey",
-      "Gregg Sewell",
-      "Godfrey Thring"
-    ],
-    "key": "Em",
-    "links": [
-      {
-        "name": "Chords",
-        "href": "https://drive.google.com/file/d/11RNyCKYUbZZX7a-qdqb5nB20RkKdYiY6/view?usp=drive_link"
-      }
-    ],
-    "tags": [
-      "christian",
-      "worship"
-    ]
-  },
-  {
-    "id": 40,
-    "title": "Come Thou Fount of Every Blessing",
-    "authors": [
-      "Robert Robinson",
-      "Traditional"
-    ],
-    "key": "D",
-    "links": [
-      {
-        "name": "Chords",
-        "href": "https://drive.google.com/file/d/1ZGOyF1Ekfb_UWWDjboCQAZX_BXZsTT7Q/view?usp=drive_link"
-      }
-    ],
-    "tags": [
-      "hymn",
-      "christian"
-    ]
-  },
-  {
-    "id": 39,
-    "title": "Abide with Me (Eventide)",
-    "authors": [
-      "Henry Francis Lyte",
-      "William Henry Monk"
-    ],
-    "key": "Eb",
-    "links": [
-      {
-        "name": "Lead Sheet",
-        "href": "https://drive.google.com/file/d/1tpWmUH6nn_v3NIsJd5TiRY8n8QvN3zzw/view?usp=drive_link"
-      }
-    ],
-    "tags": [
-      "hymn",
-      "christian"
-    ]
-  },
-  {
-    "id": 38,
-    "title": "The Object of My Affection",
-    "authors": [
-      "The Boswell Sisters",
-      "Pinky Tomlin",
-      "Coy Poe",
-      "Jimmie Grier"
-    ],
-    "key": "Ab",
-    "links": [
-      {
-        "name": "Lead Sheet",
-        "href": "https://musescore.com/user/54012492/scores/10936012"
-      }
-    ],
-    "tags": [
-      "jazz",
-      "swing"
-    ]
-  },
-  {
-    "id": 37,
-    "title": "St. Louis Blues",
-    "authors": [
-      "W.C. Handy",
-      "Bessie Smith",
-      "Louis Armstrong"
-    ],
-    "key": "G",
-    "links": [
-      {
-        "name": "Chords",
-        "href": "https://tabs.ultimate-guitar.com/tab/bessie-smith/st-louis-blues-chords-1690203"
-      }
-    ],
-    "tags": [
-      "blues",
-      "jazz"
-    ]
-  },
-  {
-    "id": 36,
-    "title": "Graditude",
-    "authors": [
-      "Brandon Lake"
-    ],
-    "key": "B",
-    "links": [
-      {
-        "name": "Chords",
-        "href": "https://www.worshiptogether.com/songs/gratitude-brandon-lake/"
-      }
-    ],
-    "tags": [
-      "rock",
-      "christian",
-      "worship"
-    ]
-  },
-  {
-    "id": 35,
+    "id": 5,
     "title": "Good Vibrations",
     "authors": [
       "Brian Wilson",
@@ -491,7 +52,11 @@
     "links": [
       {
         "name": "Chords",
-        "href": "https://tabs.ultimate-guitar.com/tab/the-beach-boys/good-vibrations-chords-258349"
+        "href": "https://link_to_chords"
+      },
+      {
+        "name": "Sheet Music",
+        "href": "https://link_to_sheet_music"
       }
     ],
     "tags": [
@@ -499,7 +64,7 @@
     ]
   },
   {
-    "id": 34,
+    "id": 4,
     "title": "I Won't Dance",
     "authors": [
       "Frank Sinatra",
@@ -511,7 +76,7 @@
     "links": [
       {
         "name": "Chords",
-        "href": "https://tabs.ultimate-guitar.com/tab/jerome-kern/i-wont-dance-chords-3355880"
+        "href": "https://link_to_chords"
       }
     ],
     "tags": [
@@ -520,188 +85,7 @@
     ]
   },
   {
-    "id": 33,
-    "title": "Sentimental Journey",
-    "authors": [
-      "Doris Day",
-      "Les Brown",
-      "Ben Homer",
-      "Bud Green"
-    ],
-    "key": "C",
-    "links": [
-      {
-        "name": "Chords",
-        "href": "https://tabs.ultimate-guitar.com/tab/doris-day/sentimental-journey-chords-1667434"
-      }
-    ],
-    "tags": [
-      "pop",
-      "swing"
-    ]
-  },
-  {
-    "id": 32,
-    "title": "The World We Knew",
-    "authors": [
-      "Frank Sinatra",
-      "Bert Kaempfert",
-      "Herbert Rehbein",
-      "Carl Sigman"
-    ],
-    "key": "Bbm",
-    "links": [
-      {
-        "name": "Chords",
-        "href": "https://www.chordsology.com/frank-sinatra/the-world-we-knew-over-and-over-chords/"
-      }
-    ],
-    "tags": [
-      "rock",
-      "pop"
-    ]
-  },
-  {
-    "id": 31,
-    "title": "Ballad of Gilligan's Isle",
-    "authors": [
-      "Sherwood Schwartz",
-      "George Wyle"
-    ],
-    "key": "N/A",
-    "links": [
-      {
-        "name": "Chords",
-        "href": "https://tabs.ultimate-guitar.com/tab/misc-television/gilligans-island-theme-chords-1064153"
-      }
-    ],
-    "tags": [
-      "soundtrack",
-      "tv"
-    ]
-  },
-  {
-    "id": 30,
-    "title": "I Wanna Be Like You",
-    "authors": [
-      "Louis Prima",
-      "Phil Harris",
-      "Sherman Brothers"
-    ],
-    "key": "C",
-    "links": [
-      {
-        "href": "https://tabs.ultimate-guitar.com/tab/misc-cartoons/the-jungle-book-i-wanna-be-like-you-chords-1681233",
-        "name": "Chords"
-      }
-    ],
-    "tags": [
-      "swing",
-      "jump blues",
-      "jazz",
-      "soundtrack",
-      "film"
-    ]
-  },
-  {
-    "id": 29,
-    "title": "Screen Door",
-    "authors": [
-      "Rich Mullins"
-    ],
-    "key": "A",
-    "links": [
-      {
-        "href": "https://www.worshiptabs.com/song/rich-mullins/screen-door",
-        "name": "Chords (simplify to a blues)"
-      }
-    ],
-    "tags": [
-      "christian",
-      "blues",
-      "acapella"
-    ]
-  },
-  {
-    "id": 28,
-    "title": "Give Me Jesus",
-    "authors": [
-      "Traditional",
-      "Jacob Knapp",
-      "Fernando Ortega"
-    ],
-    "key": "Bb",
-    "links": [
-      {
-        "href": "https://www.praisecharts.com/preview/images/20232/20232_W_001.png",
-        "name": "Chords"
-      }
-    ],
-    "tags": [
-      "hymn",
-      "christian"
-    ]
-  },
-  {
-    "id": 27,
-    "title": "A Wink And A Smile",
-    "authors": [
-      "Harry Connick Jr."
-    ],
-    "key": "C",
-    "links": [
-      {
-        "href": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://tabs.ultimate-guitar.com/tab/harry-connick-jr-/wink-and-a-smile-chords-2355387&ved=2ahUKEwiEs477qOSBAxWil4kEHU-RBfUQFnoECBYQAQ&usg=AOvVaw1HVQ4Fmr70_3in2K27hye8",
-        "name": "Chords"
-      }
-    ],
-    "tags": [
-      "jazz",
-      "hot"
-    ]
-  },
-  {
-    "id": 26,
-    "title": "I Left My Heart in San Francisco",
-    "authors": [
-      "George Cory",
-      "Douglass Cross",
-      "Tony Bennett"
-    ],
-    "key": "C",
-    "links": [
-      {
-        "href": "http://bettyloumusic.com/ileftmyheartinsanfrancisco.htm",
-        "name": "Chords"
-      }
-    ],
-    "tags": [
-      "jazz",
-      "swing"
-    ]
-  },
-  {
-    "id": 25,
-    "title": "Amazing Grace",
-    "authors": [
-      "John Newton",
-      "Traditional"
-    ],
-    "key": "G",
-    "links": [
-      {
-        "href": "https://docs.google.com/document/d/1To2b27O8dWajVLoSxyJbv1NdSbw3WFQY/edit?usp=drivesdk&ouid=110574648581844868787&rtpof=true&sd=true",
-        "name": "Chords (Worship Nights Arrangment)"
-      }
-    ],
-    "tags": [
-      "christian",
-      "hymn",
-      "gospel"
-    ]
-  },
-  {
-    "id": 24,
+    "id": 3,
     "title": "The Charleston",
     "authors": [
       "James P. Johnson",
@@ -710,7 +94,7 @@
     "key": "Bb",
     "links": [
       {
-        "href": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://tabs.ultimate-guitar.com/tab/jimmy-johnson/charleston-chords-2393193&ved=2ahUKEwiN1br48baBAxXjOX0KHearCkMQFnoECBYQAQ&usg=AOvVaw0OC7DMLGGF5LuFZrhUMR0f",
+        "href": "https://link_to_chords",
         "name": "Chords"
       }
     ],
@@ -721,191 +105,7 @@
     ]
   },
   {
-    "id": 23,
-    "title": "His Eye Is On The Sparrow",
-    "authors": [
-      "Charles H. Gabriel",
-      "Civilla D. Martin",
-      " Ethel Waters"
-    ],
-    "key": "G",
-    "links": [
-      {
-        "href": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://tabs.ultimate-guitar.com/tab/lauryn-hill/his-eye-is-on-the-sparrow-chords-1127683&ved=2ahUKEwivlJGvprSBAxWhDEQIHSKaD3gQFnoECBcQAQ&usg=AOvVaw0VJHmgQl7LAknbbZ1x0UOO",
-        "name": "Chords"
-      }
-    ],
-    "tags": [
-      "christian",
-      "gospel",
-      "hymn"
-    ]
-  },
-  {
-    "id": 22,
-    "title": "Heart And Soul",
-    "authors": [
-      "Hoagy Carmichael",
-      "Frank Loesser",
-      "Larry Clinton"
-    ],
-    "key": "C",
-    "links": [
-      {
-        "href": "https://tabs.ultimate-guitar.com/tab/frank-loesser/heart-and-soul-chords-915348",
-        "name": "Chords"
-      }
-    ],
-    "tags": [
-      "jazz",
-      "standard"
-    ]
-  },
-  {
-    "id": 21,
-    "title": "Bei Mir Bist Du Schoen",
-    "authors": [
-      "Sholom Secunda",
-      "Jacob Jacobs",
-      "Andrews Sisters",
-      "Sammy Cahn",
-      "Saul Chaplin"
-    ],
-    "key": "Em",
-    "links": [
-      {
-        "href": "https://tabs.ultimate-guitar.com/tab/janis-siegel/bei-mir-bist-du-schoen-chords-2382225",
-        "name": "Chords"
-      }
-    ],
-    "tags": [
-      "polka",
-      "jazz",
-      "swing"
-    ]
-  },
-  {
-    "id": 20,
-    "title": "Sir Duke",
-    "authors": [
-      "Stevie Wonder"
-    ],
-    "key": "B",
-    "links": [
-      {
-        "href": "https://tabs.ultimate-guitar.com/tab/stevie-wonder/sir-duke-chords-258845",
-        "name": "Chords"
-      }
-    ],
-    "tags": [
-      "funk",
-      "standard",
-      "jazz"
-    ]
-  },
-  {
-    "id": 19,
-    "title": "The Girl from Ipanema",
-    "authors": [
-      "Antônio Carlos Jobim",
-      "Stan Getz",
-      "João Gilberto",
-      "Astrud Gilberto",
-      "Vinícius de Moraes"
-    ],
-    "key": "F",
-    "links": [
-      {
-        "href": "https://tabs.ultimate-guitar.com/tab/adam-neely/the-girl-from-ipanema-chords-3258908",
-        "name": "Chords (Adam Neely Arrangement)"
-      }
-    ],
-    "tags": [
-      "bossa nova",
-      "standard"
-    ]
-  },
-  {
-    "id": 18,
-    "title": "Herman's Habit",
-    "authors": [
-      "Justin Hurwitz"
-    ],
-    "key": "Cm",
-    "links": [
-      {
-        "href": "https://musescore.com/static/musescore/scoredata/g/acd72ea3758703727bdc184cc7a81d50924f46c2/score_0.svg?no-cache=1615473141",
-        "name": "Chords"
-      }
-    ],
-    "tags": [
-      "jazz",
-      "soundtrack",
-      "film"
-    ]
-  },
-  {
-    "id": 17,
-    "title": "Strange Fruit",
-    "authors": [
-      "Abel Meeropol",
-      "Billie Holiday"
-    ],
-    "key": "Cm",
-    "links": [
-      {
-        "href": "https://tabs.ultimate-guitar.com/tab/billie-holiday/strange-fruit-chords-2526957",
-        "name": "Chords"
-      }
-    ],
-    "tags": [
-      "blues",
-      "jazz",
-      "sad",
-      "spiritual"
-    ]
-  },
-  {
-    "id": 16,
-    "title": "White Christmas",
-    "authors": [
-      "Irving Berlin",
-      "Bing Crosby"
-    ],
-    "key": "G",
-    "links": [
-      {
-        "href": "https://www.e-chords.com/keyboards/irving-berlin/white-christmas",
-        "name": "Chords"
-      }
-    ],
-    "tags": [
-      "jazz",
-      "swing",
-      "christmas"
-    ]
-  },
-  {
-    "id": 15,
-    "title": "Wii Sports Theme",
-    "authors": [
-      "Kazumi Totaka"
-    ],
-    "key": "N/A",
-    "links": [
-      {
-        "href": "https://www.vgleadsheets.com/view/wii-sports/title-screen?transposition=C",
-        "name": "Chords"
-      }
-    ],
-    "tags": [
-      "soundtrack",
-      "vgm",
-      "funk"
-    ]
-  },
-  {
-    "id": 14,
+    "id": 2,
     "title": "Mii Plaza Theme",
     "authors": [
       "Kazumi Totaka"
@@ -913,7 +113,7 @@
     "key": "N/A",
     "links": [
       {
-        "href": "https://www.vgleadsheets.com/view/wii/mii-plaza?transposition=C",
+        "href": "https://link_to_chords",
         "name": "Chords"
       }
     ],
@@ -924,137 +124,7 @@
     ]
   },
   {
-    "id": 13,
-    "title": "Tetris Type-A ('Korobeiniki')",
-    "authors": [
-      "Hirokazu Tanaka"
-    ],
-    "key": "E",
-    "links": [
-      {
-        "href": "https://www.vgleadsheets.com/view/tetris/tetris-type-a-korobeiniki?transposition=C",
-        "name": "Chords"
-      }
-    ],
-    "tags": [
-      "soundtrack",
-      "vgm"
-    ]
-  },
-  {
-    "id": 12,
-    "title": "Jump Up, Super Star!",
-    "authors": [
-      "Naoto Kubo"
-    ],
-    "key": "N/A",
-    "links": [
-      {
-        "href": "https://www.vgleadsheets.com/view/super-mario-odyssey/jump-up-super-star?transposition=C",
-        "name": "Chords"
-      }
-    ],
-    "tags": [
-      "soundtrack",
-      "vgm",
-      "swing"
-    ]
-  },
-  {
-    "id": 11,
-    "title": "Super Mario Bros. (Overworld)",
-    "authors": [
-      "Koji Kondo"
-    ],
-    "key": "C",
-    "links": [
-      {
-        "href": "https://www.vgleadsheets.com/view/super-mario-bros/overworld?transposition=C",
-        "name": "Chords"
-      }
-    ],
-    "tags": [
-      "soundtrack",
-      "vgm"
-    ]
-  },
-  {
-    "id": 10,
-    "title": "Bob-omb Battlefield",
-    "authors": [
-      "Koji Kondo"
-    ],
-    "key": "C",
-    "links": [
-      {
-        "href": "https://www.vgleadsheets.com/view/super-mario-64/main-theme?transposition=C",
-        "name": "Chords"
-      }
-    ],
-    "tags": [
-      "soundtrack",
-      "vgm",
-      "funk"
-    ]
-  },
-  {
-    "id": 9,
-    "title": "Green Hill Zone",
-    "authors": [
-      "Masato Nakamura"
-    ],
-    "key": "C",
-    "links": [
-      {
-        "href": "https://www.vgleadsheets.com/view/sonic-the-hedgehog/green-hill-zone?transposition=C",
-        "name": "Chords"
-      }
-    ],
-    "tags": [
-      "soundtrack",
-      "vgm"
-    ]
-  },
-  {
-    "id": 8,
-    "title": "Still Alive",
-    "authors": [
-      "Jonathan Coulton"
-    ],
-    "key": "N/A",
-    "links": [
-      {
-        "href": "https://www.vgleadsheets.com/view/portal/still-alive?transposition=C",
-        "name": "Chords"
-      }
-    ],
-    "tags": [
-      "soundtrack",
-      "vgm",
-      "jazz",
-      "swing"
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Suicide is Painless (Theme from M*A*S*H)",
-    "authors": [
-      "Johnny Mandel"
-    ],
-    "key": "Am",
-    "links": [
-      {
-        "href": "https://www.guitaretab.com/j/johnny-mandel/335391.html",
-        "name": "Chords"
-      }
-    ],
-    "tags": [
-      "soundtrack",
-      "tv"
-    ]
-  },
-  {
-    "id": 5,
+    "id": 1,
     "title": "Summertime",
     "authors": [
       "George Gershwin"
@@ -1062,98 +132,17 @@
     "key": "Dm",
     "links": [
       {
-        "href": "https://www.learnjazzstandards.com/jazz-standards/summertime/",
-        "name": "Learn Jazz Standards"
+        "href": "https://link_to_lead_sheet",
+        "name": "Lead Sheet"
       },
       {
-        "href": "https://genius.com/George-gershwin-summertime-lyrics",
+        "href": "https://link_to_lyrics",
         "name": "Lyrics"
       }
     ],
     "tags": [
       "jazz",
       "standard"
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Glory to God Forever",
-    "authors": [
-      "Steve Fee",
-      "Vicky Beeching"
-    ],
-    "key": "G",
-    "links": [
-      {
-        "href": "https://worshipchords.com/glory-to-god-forever-chords/",
-        "name": "Chords"
-      }
-    ],
-    "tags": [
-      "christian",
-      "worship"
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Hard to Get",
-    "authors": [
-      "Rich Mullins"
-    ],
-    "key": "G",
-    "links": [
-      {
-        "href": "https://bpluschords.tripod.com/guitar/hard2get.htm",
-        "name": "Chords"
-      }
-    ],
-    "tags": [
-      "christian"
-    ]
-  },
-  {
-    "id": 2,
-    "title": "I Got Rhythm",
-    "authors": [
-      "George Gershwin"
-    ],
-    "key": "Bb",
-    "links": [
-      {
-        "href": "https://www.learnjazzstandards.com/jazz-standards/ive-got-rhythm/",
-        "name": "Learn Jazz Standards"
-      }
-    ],
-    "tags": [
-      "jazz",
-      "standard"
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Mack The Knife",
-    "authors": [
-      "Kurt Weill",
-      "Louis Armstrong",
-      "Bobby Darin",
-      "Bertolt Brecht",
-      "Marc Blitzstein"
-    ],
-    "key": "Bb",
-    "links": [
-      {
-        "href": "https://www.google.com/search?q=mack+the+knife+lyrics&oq=mack+the+knife+lyrics&aqs=chrome.0.69i59l2.3389j0j7&client=ms-android-verizon&sourceid=chrome-mobile&ie=UTF-8",
-        "name": "Lyrics"
-      },
-      {
-        "href": "https://tabs.ultimate-guitar.com/tab/bobby-darin/mack-the-knife-chords-2008403",
-        "name": "Chords"
-      }
-    ],
-    "tags": [
-      "jazz",
-      "opera",
-      "swing"
     ]
   },
   {
@@ -1167,8 +156,8 @@
     "key": "Eb",
     "links": [
       {
-        "href": "https://www.learnjazzstandards.com/video/how-to-learn-misty-jazz-tutorial/",
-        "name": "Learn Jazz Standards"
+        "href": "https://link_to_lead_sheet",
+        "name": "Lead Sheet"
       }
     ],
     "tags": [
