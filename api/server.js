@@ -5,7 +5,7 @@ const fs = require("fs");
 
 const app = express();
 
-const apiHostPort = 5000;
+const apiHostPort = 10000;
 
 // Allows Cross-Origin-Resource-Sharing so that one host can pull a script from another host. 
 // Usually JS doesn't like this, but we can make a request past its guard.
