@@ -6,7 +6,7 @@ import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import { AddSongForm, RemoveSongForm, EditSongForm } from "./Edit";
 
-const apiHostAddress = '192.168.1.75'; // RasPi
+//const apiHostAddress = '192.168.1.75'; // RasPi
 //const apiHostAddress = '192.168.1.66'; // PC
 const apiHostPort = 5000;
 
@@ -43,11 +43,11 @@ export default function Home() {
   let collectionLinks = <></>;
   if (showCollections) {
     collectionLinks = (<div>
-    <a className="collectionLink" href="https://hymnary.org/">Hymnary</a>
-    <a className="collectionLink" href="https://www.vgleadsheets.com/">VGM Lead Sheets</a>
-    <a className="collectionLink" href="https://drive.google.com/file/d/1J-J5N_hSskErYIkc3h2Mfv73qcixYKsM/view?usp=sharing">Real Book</a>
-    <a className="collectionLink" href="https://drive.google.com/file/d/1txhsjoSMZDCQ96ihH_DZIQXaS--vvB_t/view?usp=sharing">Dixieland Book</a>
-    <a className="collectionLink" href="https://drive.google.com/drive/mobile/folders/1PzX4kS9c4WzaFfottk5x6m7N-NRX508y">Worship Nights Folder</a>
+    <a className="collectionLink" href="https://google.com">External Link #1</a>
+    <a className="collectionLink" href="https://google.com">External Link #2</a>
+    <a className="collectionLink" href="https://google.com">External Link #3</a>
+    <a className="collectionLink" href="https://google.com">External Link #4</a>
+    <a className="collectionLink" href="https://google.com">External Link #5</a>
     </div>);
   }
 
